@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Bot</title>
+
+    <link rel="stylesheet" href="static/css/chat.css">
+    <link rel="stylesheet" href="static/css/home.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/responces.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">-->
+
+</head>
+
+<body>
+    <div class="ctn">
+        <div class="navb">
+            <img src="static/imagesAcc/logo.png" class="logo">
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1 style="font-size:70px;" id="pp">Welcome to Marrakesh</h1>
+                <p style="font-size: 15px;line-height: 15px;color: #fff;">
+                Prepare for your senses to be slapped. Marrakesh's heady sights and sounds will dazzle,
+                frazzle and enchant. Put on your babouches (leather slippers) and dive right in.
+                </p>
+            </div>
+                <div class="col">
+                    <div class="card card1" onclick="animation(this)" >
+                        <h5>Hotels</h5>
+                    </div>
+                    <div class="card card2" onclick="animation(this)">
+                        <h5>Places</h5>
+                    </div>
+                    <div class="card card3" onclick="animation(this)">
+                        <h5>Restaurants</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- CHAT BAR BLOCK -->
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">
+            <!--Chat with us!
+            <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>-->
+            <img src="static/imagesAcc/logo.jpg" width="40px" height="40px" style = "border-radius:80px; margin:0;padding:0px;">
+            <span style="font-size:14px;font-weight:bold; position:relative;bottom:20px;">IRM-Chatbot</span>
+            <span style="font-size:14px;font-weight:bold; position:relative;bottom:5px; left:-85px; color:green;">online</span>
+        </button>
+
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <h4 id="chat-timestamp"></h4>
+                            <p id="botStarterMessage" class="botText"><span class="botText">Hi I'm IRM Chatbot 🖐️</span></p>
+                        </div>
+
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="question" class="input-box" type="text" name="question"
+                                    placeholder="Enter message">
+                                <p></p>
+                            </div>
+
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon2" style="color: crimson;" class="fa fa-fw fa-heart"></i>
+                                <i id="chat-icon3" style="color: #333;" class="fa fa-fw fa-send"></i>
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+   
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="static/scripts/responses.js"></script>
+<script src="static/scripts/chat.js"></script>
+<script src="static/scripts/jquery.min.js"></script>
+
+
+</html>
