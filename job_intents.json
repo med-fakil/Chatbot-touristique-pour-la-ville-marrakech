@@ -1,0 +1,1342 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Ekse", "Hi"],
+     "responses": ["Hi stranger \uD83D\uDD90️", "Yebo yes, how can I help \uD83D\uDD90️", "Ey watsupp \uD83D\uDD90️",  "Hola \uD83D\uDD90️", "Hey dude \uD83D\uDD90️", "You again \uD83D\uDD90️"],
+      "name" : ""
+
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+     "responses": ["See you! \uD83D\uDCAA", "Have a nice day ☺️", "Sure Bye \uD83D\uDC4A", "Later dude ☺️",  "Peace out \uD83D\uDCAA", "Sure dude \uD83D\uDC4A", "Ciao ☺️"],
+      "name" : ""
+
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help! \uD83D\uDE42", "Any time!\uD83E\uDD17", "My pleasure \uD83D\uDE42", "You are welcome \uD83E\uDD17", "Sure dude \uD83D\uDE18"],
+      "name" : ""
+    },
+    {"tag": "noanswer",
+     "patterns": [""],
+     "responses": ["Sorry, can't understand you \uD83D\uDE14", "Please give me more info \uD83D\uDE14", "Not sure I understand \uD83D\uDE14", "I am still here dude \uD83D\uDE14"],
+      "name" : ""
+     },
+     {"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you",  "Tell me about yourself", "You are"],
+      "responses": ["I am IRM \uD83D\uDE03", "My name is IRM \uD83D\uDE03", "You can call me IRM for short \uD83D\uDE03", "I am IRM, my friends call me chatKech \uD83D\uDE03", "IRM is my name \uD83D\uDE03"],
+       "name" : ""
+      },
+     {"tag": "options",
+       "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help","what can you do","how can y help mee","what do u now","how can u help me"],
+       "responses": ["I can tell you about marrakech \uD83C\uDFDC️", "I can give you interesting facts about marrakech \uD83C\uDFDC️"],
+      "name" : ""
+      },
+      {"tag": "listes_hotels",
+       "patterns": ["What are the best hotel in marrakech ?", "Show me a list of hotel in marrakech ?", "What are the famous hotel in marrakech ?", "How many hotels in marrakech ?","show me a liste of hotel","list of hotel","hello plz find the best hotel near marrakech","pls help me find motel in the area of marrakech","i'm looking for the best hotels near marrakech thanks","hello please i'm looking for resort near marrakech thanks","the best hotel in the area of marrakech","motel in the area of marrakech","the famous hotel  located at marrakech","resort near marrakech","plz help me find resort in the area of marrakech thank you","the best hotel located at marrakech","hi please i'm looking for hotel near marrakech thanks","hello plz help me find motel located at marrakech thank you","hotel near marrakech","hey plz find resort located at marrakech thank you","hey please help me find the famous located at marrakech thank you","can you show me list of hotels here in marrakech","What are the best hotel in this city","let me see a list of hotels in this city","can i have a list of hotels here in marrakech","can you show me list of hotels here in marrakech"],
+       "responses": [["Hotel Moroccan House","Hotel Racine","Hotel Labranda Targa Aqua Parc","Hotel berostar Club Palmeraie","Hotel Atlas Asni","Hotel Four Seasons Resort","Hotel The Oberoi Marrakech","Hotel Fairmont Royal Palm Marrakech","Hotel Flashback House","Hotel Préstigia Marrakech","Hotel Marrakech golf City prestigia","Hotel almas" , "Hotel sofitel", "Hotel ibis"]],
+        "name" : ""
+      },
+    {"tag": "listes_hotels_piscine",
+       "patterns": ["hotels that have pools ?", "hotels that have swimming pools ?", "give me a list of hotels that have a pool?", "hotels where you can swim in a pool","What are the famous hotel that have swimming pools?","show me a list of hotel that have swiming poo of hotel","What are the best hotel that have a swimming pool?","pls find the famous hotels that have swimming bath thank you","motel where you can swim in a natatoruim","can you give me list of hotels that have swimming pool","give me list of hotels that have natatoruim","show me list of hotels that have swimming pool","hotel that have swimming pool in this city","hotel that have swimming bath here in marrakech","give me list of hotels that have swimming pool","plz hotel that have swimming bath thank you","the famous hotels that have swimming pool here in marrakech","hey motel that have swimming pool","hello pls hotel that have swimming bath here in marrakech","can i have a list of hotels that have swimming pool","can you give me list of hotels that have natatoruim","the famous where you can swim in a swimming bath","hi please find motel that have natatoruim in this city","hi please the best hotels that have swimming bath here in marrakech","the famous hotels that have swimming bath here in marrakech","hey motel that have swimming pool","hello pls hotel that have swimming bath here in marrakech","can i have a list of hotels that have swimming pool","can you give me list of hotels that have natatoruim","hey please i'm looking for the famous hotels that have natatoruim here in marrakech thank you","hi pls find resort that have swimming bath here in marrakech","resort that have swimming pool thank you","hello plz help me find motel that have swimming bath in this city thanks","hello pls find the best hotels that have swimming bath in this city thanks"],
+       "responses": [["Hotel Moroccan House","Hotel Racine","Hotel Labranda Targa Aqua Parc","Hotel berostar Club Palmeraie","Hotel Atlas Asni","Hotel Four Seasons Resort","Hotel The Oberoi Marrakech","Hotel Fairmont Royal Palm Marrakech","Hotel Préstigia Marrakech","Hotel Marrakech golf City prestigia","Hotel almas" , "Hotel sofitel", "Hotel ibis"]],
+        "name" : ""
+      },
+      {"tag": "stars",
+        "patterns": ["How many stars in this hotel ?,What is the rating of this hotel ?","How is this hotel star rated ?","What is the staring system in this hotel ?","What is the star rating of this hotel ? ","What is rank in this hotel","What is rank in this resort","What is rank in this motel","How is this motel graded","What is the staring classification in this motel","How is this motel classified","What is standard in this motel","How is this hotel graded","How is this motel graded","How is this resort classified","What is the staring classification in this resort"],
+        "responses": [" Moroccan House hotel has 3 stars"],
+        "name" : "Moroccan"
+      },
+    {"tag": "stars",
+        "patterns": ["How many stars in this hotel ?","What is the rating of this hotel ?" ,"How is this hotel star rated ?","What is the staring system in this hotel ?","What is the star rating of this hotel ? ","What is rank in this hotel","What is rank in this resort","What is rank in this motel","How is this motel graded","What is the staring classification in this motel","How is this motel classified","What is standard in this motel","How is this hotel graded","How is this motel graded","How is this resort classified","What is the staring classification in this resort"],
+        "responses": ["Hotel Racine hotel has 3 stars"],
+        "name" : "Racine"
+      },
+    {"tag": "stars",
+        "patterns": ["How many stars in this hotel ?","What is the rating of this hotel ?" ,"How is this hotel star rated ?","What is the staring system in this hotel ?","What is the star rating of this hotel ? ","What is rank in this hotel","What is rank in this resort","What is rank in this motel","How is this motel graded","What is the staring classification in this motel","How is this motel classified","What is standard in this motel","How is this hotel graded","How is this motel graded","How is this resort classified","What is the staring classification in this resort"],
+        "responses": ["almas hotel has 3 stars"],
+        "name" : "almas"
+      },
+    {"tag": "stars",
+        "patterns": ["How many stars in this hotel ?","What is the rating of this hotel ?" ,"How is this hotel star rated ?","What is the staring system in this hotel ?","What is the star rating of this hotel ? ","What is rank in this hotel","What is rank in this resort","What is rank in this motel","How is this motel graded","What is the staring classification in this motel","How is this motel classified","What is standard in this motel","How is this hotel graded","How is this motel graded","How is this resort classified","What is the staring classification in this resort"],
+        "responses": ["Four Seasons Resort hotel has 5 stars"],
+        "name" : "Resort"
+      },
+    {"tag": "stars",
+        "patterns": ["How many stars in this hotel ?","What is the rating of this hotel ?" ,"How is this hotel star rated ?","What is the staring system in this hotel ?","What is the star rating of this hotel ? ","What is rank in this hotel","What is rank in this resort","What is rank in this motel","How is this motel graded","What is the staring classification in this motel","How is this motel classified","What is standard in this motel","How is this hotel graded","How is this motel graded","How is this resort classified","What is the staring classification in this resort"],
+        "responses": ["Fairmont Royal Palm Marrakech has 5 stars"],
+        "name" : "Fairmont"
+      },
+    {"tag": "stars",
+        "patterns": ["How many stars in this hotel ?","What is the rating of this hotel ?" ,"How is this hotel star rated ?","What is the staring system in this hotel ?","What is the star rating of this hotel ? ","What is rank in this hotel","What is rank in this resort","What is rank in this motel","How is this motel graded","What is the staring classification in this motel","How is this motel classified","What is standard in this motel","How is this hotel graded","How is this motel graded","How is this resort classified","What is the staring classification in this resort"],
+        "responses": ["Atlas Asni hotel has 4 stars"],
+        "name" : "Atlas"
+      },
+    {"tag": "stars",
+        "patterns": ["How many stars in this hotel ?","What is the rating of this hotel ? ","How is hotel star rated ?","What is the staring system in this hotel ?","What is the star rating of this hotel ? "],
+        "responses": ["Labranda Targa Aqua Parc hotel has 4 stars"],
+        "name" : "Labranda"
+      },
+    {"tag": "stars",
+        "patterns": ["How many stars in this hotel ?","What is the rating of this hotel ? ","How is hotel star rated ?","What is the staring system in this hotel ?","What is the star rating of this hotel ? "],
+        "responses": ["Préstigia Marrakech hotel has 4 stars"],
+        "name" : "Préstigia"
+      },
+    {"tag": "stars",
+        "patterns": ["How many stars in this hotel ?","What is the rating of this hotel ?" ,"How is this hotel star rated ?","What is the staring system in this hotel ?","What is the star rating of this hotel ? ","What is rank in this hotel","What is rank in this resort","What is rank in this motel","How is this motel graded","What is the staring classification in this motel","How is this motel classified","What is standard in this motel","How is this hotel graded","How is this motel graded","How is this resort classified","What is the staring classification in this resort"],
+        "responses": ["The Oberoi Marrakech  hotel has 5 stars"],
+        "name" : "Oberoi"
+      },
+    {"tag": "stars",
+        "patterns": ["How many stars in this hotel ?","What is the rating of this hotel ?" ,"How is this hotel star rated ?","What is the staring system in this hotel ?","What is the star rating of this hotel ? ","What is rank in this hotel","What is rank in this resort","What is rank in this motel","How is this motel graded","What is the staring classification in this motel","How is this motel classified","What is standard in this motel","How is this hotel graded","How is this motel graded","How is this resort classified","What is the staring classification in this resort"],
+        "responses": ["Marrakech golf City prestigia hotel has 4 stars"],
+        "name" : "golf"
+      },
+    {"tag": "stars",
+        "patterns": ["How many stars in this hotel ?","What is the rating of this hotel ?" ,"How is this hotel star rated ?","What is the staring system in this hotel ?","What is the star rating of this hotel ? ","What is rank in this hotel","What is rank in this resort","What is rank in this motel","How is this motel graded","What is the staring classification in this motel","How is this motel classified","What is standard in this motel","How is this hotel graded","How is this motel graded","How is this resort classified","What is the staring classification in this resort"],
+        "responses": ["Flashback House hotel has 4 stars"],
+        "name" : "Flashback"
+      },
+    {"tag": "stars",
+        "patterns": ["How many stars in this hotel ?","What is the rating of this hotel ?" ,"How is this hotel star rated ?","What is the staring system in this hotel ?","What is the star rating of this hotel ? ","What is rank in this hotel","What is rank in this resort","What is rank in this motel","How is this motel graded","What is the staring classification in this motel","How is this motel classified","What is standard in this motel","How is this hotel graded","How is this motel graded","How is this resort classified","What is the staring classification in this resort"],
+        "responses": ["berostar Club Palmeraie has 4 stars"],
+        "name" : "berostar"
+      },
+
+     {"tag": "stars",
+        "patterns": ["How many stars in this hotel ?","What is the rating of this hotel ?","How is this hotel star rated ?","What is the staring system in this hotel ?","What is the star rating of this hotel ?","What is rank in this hotel","What is rank in this resort","What is rank in this motel","How is this motel graded","What is the staring classification in this motel","How is this motel classified","What is standard in this motel","How is this hotel graded","How is this motel graded","How is this resort classified","What is the staring classification in this resort"],
+        "responses": ["sofitel hotel has 5 stars"],
+        "name" : "sofitel"
+      },
+    {"tag": "stars",
+        "patterns": ["How many stars in this hotel ?","What is the rating of this hotel ?" ,"How is this hotel star rated ?","What is the staring system in this hotel ?","What is the star rating of this hotel ? ","What is rank in this hotel","What is rank in this resort","What is rank in this motel","How is this motel graded","What is the staring classification in this motel","How is this motel classified","What is standard in this motel","How is this hotel graded","How is this motel graded","How is this resort classified","What is the staring classification in this resort"],
+        "responses": ["ibis hotel has 3 stars"],
+        "name" : "ibis"
+      },
+
+    {"tag": "location",
+        "patterns": ["where can i find this hotel ?","What about the location of this hotels ?","can you send me the address of this hotels","where is this hotel?","the location of this motel","the position of this motel","i'm looking for this hotel"," help me find this hotel","i'm looking for this resort","where is this resort","where is this motel","can you give me the location of this hotel","can you tell me the location of this hotel","can you give me the position of this hotel","can you show me the place of this hotel","can you tell me the place of this hotel","can you give me the location of this resort","can you show me the position of this resort","can you show me the place of this resort","can you give me the location of this motel","can you tell me the location of this motel","can you show me the position of this motel","can you give me the place of this motel","the location of this hotel","the place of this hotel","the location of this resort","the place of this resort"],
+        "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13588.195070289214!2d-8.0113404!3d31.6325151!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sma!4v1626216042787!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+        "name" : "almas"
+      },
+     {"tag": "location",
+        "patterns": ["where can i find this hotel ?","What about the location of this hotels ?","can you send me the address of this hotels","where is this hotel?","the location of this motel","the position of this motel","i'm looking for this hotel"," help me find this hotel","i'm looking for this resort","where is this resort","where is this motel","can you give me the location of this hotel","can you tell me the location of this hotel","can you give me the position of this hotel","can you show me the place of this hotel","can you tell me the place of this hotel","can you give me the location of this resort","can you show me the position of this resort","can you show me the place of this resort","can you give me the location of this motel","can you tell me the location of this motel","can you show me the position of this motel","can you give me the place of this motel","the location of this hotel","the place of this hotel","the location of this resort","the place of this resort"],
+        "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.45520960598!2d-8.004803084303498!3d31.621384549310033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee58becf2b5d%3A0x5ee3f0249e2dd3c0!2sSofitel%20Marrakech%20Lounge%20%26%20Spa!5e0!3m2!1sfr!2sma!4v1626216360291!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+        "name" : "sofitel"
+      },
+    {"tag": "location",
+        "patterns": ["where can i find this hotel  ?","What about the location of this hotels ?","can you send me the address of this hotels","where is this hotel?","the location of this motel","the position of this motel","i'm looking for this hotel"," help me find this hotel","i'm looking for this resort","where is this resort","where is this motel","can you give me the location of this hotel","can you tell me the location of this hotel","can you give me the position of this hotel","can you show me the place of this hotel","can you tell me the place of this hotel","can you give me the location of this resort","can you show me the position of this resort","can you show me the place of this resort","can you give me the location of this motel","can you tell me the location of this motel","can you show me the position of this motel","can you give me the place of this motel","the location of this hotel","the place of this hotel","the location of this resort","the place of this resort"],
+        "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.1512560852257!2d-8.020436184303326!3d31.629708748898604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee937593e85d%3A0x5e24480114893216!2sibis%20Marrakech%20Centre%20Gare!5e0!3m2!1sfr!2sma!4v1626216425105!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+        "name" : "ibis"
+      },
+
+    {"tag": "location",
+        "patterns": ["where can i find this hotel  ?","What about the location of this hotels ?","can you send me the address of this hotels","where is this hotel?","the location of this motel","the position of this motel","i'm looking for this hotel"," help me find this hotel","i'm looking for this resort","where is this resort","where is this motel","can you give me the location of this hotel","can you tell me the location of this hotel","can you give me the position of this hotel","can you show me the place of this hotel","can you tell me the place of this hotel","can you give me the location of this resort","can you show me the position of this resort","can you show me the place of this resort","can you give me the location of this motel","can you tell me the location of this motel","can you show me the position of this motel","can you give me the place of this motel","the location of this hotel","the place of this hotel","the location of this resort","the place of this resort"],
+        "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.4763780082967!2d-8.019843384303446!3d31.620804749338575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafeeeeedb7c79d%3A0x5f02ba2d08120247!2sFour%20Seasons%20Resort%20Marrakech!5e0!3m2!1sfr!2sma!4v1626216446513!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+        "name" : "resort"
+      },
+    {"tag": "location",
+        "patterns": ["where can i find this hotel  ?","What about the location of this hotels ?","can you send me the address of this hotels","where is this hotel?","the location of this motel","the position of this motel","i'm looking for this hotel"," help me find this hotel","i'm looking for this resort","where is this resort","where is this motel","can you give me the location of this hotel","can you tell me the location of this hotel","can you give me the position of this hotel","can you show me the place of this hotel","can you tell me the place of this hotel","can you give me the location of this resort","can you show me the position of this resort","can you show me the place of this resort","can you give me the location of this motel","can you tell me the location of this motel","can you show me the position of this motel","can you give me the place of this motel","the location of this hotel","the place of this hotel","the location of this resort","the place of this resort"],
+        "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91435.0108878315!2d-7.955005099209798!3d31.607174330829405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdaff1b54b413d9f%3A0xbbf1f9d8760651bb!2sThe%20Oberoi%2C%20Marrakech!5e0!3m2!1sfr!2sma!4v1626216545459!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+        "name" : "Oberoi"
+      },
+    {"tag": "location",
+        "patterns": ["where can i find this hotel  ?","What about the location of this hotels ?","can you send me the address of this hotels","where is this hotel?","the location of this motel","the position of this motel","i'm looking for this hotel"," help me find this hotel","i'm looking for this resort","where is this resort","where is this motel","can you give me the location of this hotel","can you tell me the location of this hotel","can you give me the position of this hotel","can you show me the place of this hotel","can you tell me the place of this hotel","can you give me the location of this resort","can you show me the position of this resort","can you show me the place of this resort","can you give me the location of this motel","can you tell me the location of this motel","can you show me the position of this motel","can you give me the place of this motel","the location of this hotel","the place of this hotel","the location of this resort","the place of this resort"],
+        "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.8855547986404!2d-8.012659384303216!3d31.636983748538967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee8f0fc72cfd%3A0xa0a81ff983de926d!2sMoroccan%20House!5e0!3m2!1sfr!2sma!4v1626216620905!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+        "name" : "Moroccan"
+      },
+    {"tag": "location",
+        "patterns": ["where can i find this hotel  ?","What about the location of this hotels ?","can you send me the address of this hotels","where is this hotel?","the location of this motel","the position of this motel","i'm looking for this hotel"," help me find this hotel","i'm looking for this resort","where is this resort","where is this motel","can you give me the location of this hotel","can you tell me the location of this hotel","can you give me the position of this hotel","can you show me the place of this hotel","can you tell me the place of this hotel","can you give me the location of this resort","can you show me the position of this resort","can you show me the place of this resort","can you give me the location of this motel","can you tell me the location of this motel","can you show me the position of this motel","can you give me the place of this motel","the location of this hotel","the place of this hotel","the location of this resort","the place of this resort"],
+        "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3398.285623958148!2d-8.006971284303766!3d31.598632450433822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cb9f97784f91%3A0x3a707960f2c83c1c!2sMarrakech%20Golf%20City%20-%20PRESTIGIA!5e0!3m2!1sfr!2sma!4v1626216677024!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+        "name" : "golf"
+      },
+    {"tag": "location",
+        "patterns": ["where can i find this hotel  ?","What about the location of this hotels ?","can you send me the address of this hotels","where is this hotel?","the location of this motel","the position of this motel","i'm looking for this hotel"," help me find this hotel","i'm looking for this resort","where is this resort","where is this motel","can you give me the location of this hotel","can you tell me the location of this hotel","can you give me the position of this hotel","can you show me the place of this hotel","can you tell me the place of this hotel","can you give me the location of this resort","can you show me the position of this resort","can you show me the place of this resort","can you give me the location of this motel","can you tell me the location of this motel","can you show me the position of this motel","can you give me the place of this motel","the location of this hotel","the place of this hotel","the location of this resort","the place of this resort"],
+        "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.070726074774!2d-8.005955184303247!3d31.631913848789345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee8a6e85c699%3A0x60331afb85660ef1!2sHOTEL%20MARRAKECH%20RACINE!5e0!3m2!1sfr!2sma!4v1626216724023!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+        "name" : "Racine"
+      },
+
+    {"tag": "location",
+        "patterns": ["where can i find this hotel  ?","What about the location of this hotels ?","can you send me the address of this hotels","where is this hotel?","the location of this motel","the position of this motel","i'm looking for this hotel"," help me find this hotel","i'm looking for this resort","where is this resort","where is this motel","can you give me the location of this hotel","can you tell me the location of this hotel","can you give me the position of this hotel","can you show me the place of this hotel","can you tell me the place of this hotel","can you give me the location of this resort","can you show me the position of this resort","can you show me the place of this resort","can you give me the location of this motel","can you tell me the location of this motel","can you show me the position of this motel","can you give me the place of this motel","the location of this hotel","the place of this hotel","the location of this resort","the place of this resort"],
+        "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.3945721465084!2d-8.01409568430333!3d31.623045349227777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafefab15769aab%3A0x40e8a29c8bfaafa9!2sH%C3%B4tel%20Atlas%20Asni!5e0!3m2!1sfr!2sma!4v1626216754184!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+        "name" : "Atlas"
+      },
+     {"tag": "location",
+        "patterns": ["where can i find this hotel  ?","What about the location of this hotels ?","can you send me the address of this hotels","where is this hotel?","the location of this motel","the position of this motel","i'm looking for this hotel"," help me find this hotel","i'm looking for this resort","where is this resort","where is this motel","can you give me the location of this hotel","can you tell me the location of this hotel","can you give me the position of this hotel","can you show me the place of this hotel","can you tell me the place of this hotel","can you give me the location of this resort","can you show me the position of this resort","can you show me the place of this resort","can you give me the location of this motel","can you tell me the location of this motel","can you show me the position of this motel","can you give me the place of this motel","the location of this hotel","the place of this hotel","the location of this resort","the place of this resort"],
+        "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3395.9018559523483!2d-7.901770784302807!3d31.663904747207336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdaff3dea8c803a7%3A0x41ab8f0b2d6b941c!2sIberostar%20Club%20Palmeraie%20Marrakech!5e0!3m2!1sfr!2sma!4v1626216785943!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+        "name" : "berostar"
+      },
+    {"tag": "location",
+        "patterns": ["where can i find this hotel  ?","What about the location of this hotels ?","can you send me the address of this hotels","where is this hotel?","the location of this motel","the position of this motel","i'm looking for this hotel"," help me find this hotel","i'm looking for this resort","where is this resort","where is this motel","can you give me the location of this hotel","can you tell me the location of this hotel","can you give me the position of this hotel","can you show me the place of this hotel","can you tell me the place of this hotel","can you give me the location of this resort","can you show me the position of this resort","can you show me the place of this resort","can you give me the location of this motel","can you tell me the location of this motel","can you show me the position of this motel","can you give me the place of this motel","the location of this hotel","the place of this hotel","the location of this resort","the place of this resort"],
+        "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3395.9159950124854!2d-8.067652184302782!3d31.663517947226534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafebe57cb1969f%3A0xaf7ee922398a9401!2sLabrandaTarga%20Club%20Aqua%20Parc!5e0!3m2!1sfr!2sma!4v1626216816935!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+        "name" : "Labranda"
+      },
+     {"tag": "location",
+        "patterns": ["where can i find this hotel  ?","What about the location of this hotels ?","can you send me the address of this hotels","where is this hotel?","the location of this motel","the position of this motel","i'm looking for this hotel"," help me find this hotel","i'm looking for this resort","where is this resort","where is this motel","can you give me the location of this hotel","can you tell me the location of this hotel","can you give me the position of this hotel","can you show me the place of this hotel","can you tell me the place of this hotel","can you give me the location of this resort","can you show me the position of this resort","can you show me the place of this resort","can you give me the location of this motel","can you tell me the location of this motel","can you show me the position of this motel","can you give me the place of this motel","the location of this hotel","the place of this hotel","the location of this resort","the place of this resort"],
+        "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1010.3626754190025!2d-8.022044030445667!3d31.594362581575737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sma!4v1626217126981!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+        "name" : "Flashback"
+      },
+    {"tag": "location",
+        "patterns": ["where can i find this hotel  ?","What about the location of this hotels ?","can you send me the address of this hotels","where is this hotel?","the location of this motel","the position of this motel","i'm looking for this hotel"," help me find this hotel","i'm looking for this resort","where is this resort","where is this motel","can you give me the location of this hotel","can you tell me the location of this hotel","can you give me the position of this hotel","can you show me the place of this hotel","can you tell me the place of this hotel","can you give me the location of this resort","can you show me the position of this resort","can you show me the place of this resort","can you give me the location of this motel","can you tell me the location of this motel","can you show me the position of this motel","can you give me the place of this motel","the location of this hotel","the place of this hotel","the location of this resort","the place of this resort"],
+        "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d9611.701263032748!2d-8.0086513443575!3d31.599620554300547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPr%C3%A9stigia%2016%20Marrakech!5e0!3m2!1sfr!2sma!4v1626217293892!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+        "name" : "Préstigia"
+      },
+
+    {"tag": "location",
+        "patterns": ["where can i find this hotel  ?","What about the location of this hotels ?","can you send me the address of this hotels","where is this hotel?","the location of this motel","the position of this motel","i'm looking for this hotel"," help me find this hotel","i'm looking for this resort","where is this resort","where is this motel","can you give me the location of this hotel","can you tell me the location of this hotel","can you give me the position of this hotel","can you show me the place of this hotel","can you tell me the place of this hotel","can you give me the location of this resort","can you show me the position of this resort","can you show me the place of this resort","can you give me the location of this motel","can you tell me the location of this motel","can you show me the position of this motel","can you give me the place of this motel","the location of this hotel","the place of this hotel","the location of this resort","the place of this resort"],
+        "responses": ["<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13604.598296255426!2d-8.05685988465576!3d31.520051599072815!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4cef36c32b115940!2sHotel%20Fairmont%20Royal%20Palm%20Marrakech!5e0!3m2!1sfr!2sma!4v1624990790936!5m2!1sfr!2sma' width='100%' height='100%' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"],
+        "name" : "Fairmont"
+      },
+
+
+    {"tag": "service",
+        "patterns": ["What type of services does this hotel have ","What are the types of services in this hotel ?","How many types of service are in this hotel ? ?","What are the basic types of service in this hotel ","what are the type of services in this resort","what can this hotel provide","what can this resort implement","what can this hotel implement","whats in this hotel?","what does this hotel have?"],
+        "responses": ["This modern luxury hotel is 4 km from the Jemaa el-Fna open-air market and 5 km from the Majorelle Garden and the Bahia Palace.The bright, elegant rooms have hand-carved furniture and some colorful tiles. They include free Wi-Fi, flat-screen TVs, iPod docks and en suite bathrooms with bathtubs and rain showers. Suites, meanwhile, have a separate living area and a balcony or terrace. Room service is available.Breakfast is included. There are 3 restaurants, reception and rooftop bars, 2 outdoor pools, a spa, a business center, several tennis courts and a gym."],
+        "name" : "Resort"
+      },
+    {"tag": "service",
+        "patterns": ["What type of services does this hotel have ","What are the types of services in this hotel ?","How many types of service are in this hotel ? ?","What are the basic types of service in this hotel ","what are the type of services in this resort","what can this hotel provide","what can this resort implement","what can this hotel implement","whats in this hotel?","what does this hotel have?"],
+        "responses": ["Sober rooms in a friendly hotel with spa, rooftop pool and restaurant."],
+        "name" : "Racine"
+      },
+     {"tag": "service",
+        "patterns": ["What type of services does this hotel have ","What are the types of services in this hotel ?","How many types of service are in this hotel ? ?","What are the basic types of service in this hotel ","what are the type of services in this resort","what can this hotel provide","what can this resort implement","what can this hotel implement","whats in this hotel?","what does this hotel have?"],
+        "responses": ["Sober rooms in a friendly hotel with spa, rooftop pool and restaurant."],
+        "name" : "ibis"
+      },
+    {"tag": "service",
+        "patterns": ["What type of services does this hotel have ","What are the types of services in this hotel ?","How many types of service are in this hotel ? ?","What are the basic types of service in this hotel ","what are the type of services in this resort","what can this hotel provide","what can this resort implement","what can this hotel implement","whats in this hotel?","what does this hotel have?"],
+        "responses": ["Offering views of the Atlas Mountains, this elegant luxury hotel is just off the N9 road and 12 km from the lively Jemaa el-Fna square in the medina, which is lined with food stalls.Refined rooms come with Nespresso machines, minibars, flat-screen TVs, Wi-Fi, sitting areas and balconies with mountain views. The villas also have a private pool and garden. Suites have a separate living room. Butler service is available 24/7.The hotel has 3 restaurants (1 serving gourmet cuisine), a chic bar, a spa and a gym. It also has indoor and outdoor pools and landscaped gardens. Desert tours by private jet and hot air balloon can be arranged. Breakfast is available."],
+        "name" : "Oberoi"
+      },
+    {"tag": "service",
+        "patterns": ["What type of services does this hotel have ","What are the types of services in this hotel ?","How many types of service are in this hotel ? ?","What are the basic types of service in this hotel ","what are the type of services in this resort","what can this hotel provide","what can this resort implement","what can this hotel implement","whats in this hotel?","what does this hotel have?"],
+        "responses": ["This huge complex set in 231 hectares of orchards offers a view of the Atlas Mountains. It's less than 13 km from Marrakech-Menara airport and Jemaa el-Fna Square, a lively downtown area.The chic rooms feature free Wi-Fi, flat-screen TVs, minibars, tea and coffeemakers, and terraces with views of the mountains and golf course. Suites also include a living room, pool and/or kitchen. Villas have butler service and an outdoor pool. Room service is available.The resort offers complimentary shuttles to the airport and downtown. It also has a golf course, spa, outdoor pool, kids' club, 2 bars and 3 restaurants (1 specializing in Mediterranean cuisine). The clubhouse has a gym and yoga room."],
+        "name" : "sofitel"
+      },
+     {"tag": "service",
+        "patterns": ["What type of services does this hotel have ","What are the types of services in this hotel ?","How many types of service are in this hotel ? ?","What are the basic types of service in this hotel ","what are the type of services in this resort","what can this hotel provide","what can this resort implement","what can this hotel implement","whats in this hotel?","what does this hotel have?"],
+        "responses": ["Located in an area with stores and restaurants, this hotel with a relaxed atmosphere is a 12-minute walk from Marrakech's train station, 2 km from the Majorelle Garden and 3 km from the bustling Jemaa el-Fna Square.Featuring balconies, the simple rooms have free Wi-Fi, flat-screen TVs and minibars. Suites also include a sitting area.The property has a restaurant with a relaxed atmosphere. Buffet breakfast is available for a fee. The hotel also has an outdoor pool with a sundeck and lounge chairs. A shuttle to the surrounding area is available at an additional cost."],
+        "name" : "almas"
+      },
+
+     {"tag": "service",
+        "patterns": ["What type of services does this hotel have ","What are the types of services in this hotel ?","How many types of service are in this hotel ? ?","What are the basic types of service in this hotel ","what are the type of services in this resort","what can this hotel provide","what can this resort implement","what can this hotel implement","whats in this hotel?","what does this hotel have?"],
+        "responses": ["This huge complex set in 231 hectares of orchards offers a view of the Atlas Mountains. It's less than 13 km from Marrakech-Menara airport and Jemaa el-Fna Square, a lively downtown area.The chic rooms feature free Wi-Fi, flat-screen TVs, minibars, tea and coffeemakers, and terraces with views of the mountains and golf course. Suites also include a living room, pool and/or kitchen. Villas have butler service and an outdoor pool. Room service is available.The resort offers complimentary shuttles to the airport and downtown. It also has a golf course, spa, outdoor pool, kids' club, 2 bars and 3 restaurants (1 specializing in Mediterranean cuisine). The clubhouse has a gym and yoga room."],
+        "name" : "Fairmont"
+      },
+
+     {"tag": "service",
+        "patterns": ["What type of services does this hotel have ","What are the types of services in this hotel ?","How many types of service are in this hotel ? ?","What are the basic types of service in this hotel ","what are the type of services in this resort","what can this hotel provide","what can this resort implement","what can this hotel implement","whats in this hotel?","what does this hotel have?"],
+        "responses": ["Located 1 kilometer from Marrakech's train station, this traditional riad is a 15-minute walk from the sumptuous Majorelle Garden and the Berber Museum. Jemaa el-Fna Square, with its famous bustling market, is 3 km away.The richly decorated rooms have a balcony, four-poster bed and typical North African furniture. They have a TV and free Wi-Fi. Family rooms also have a living area. Room service is available.Free breakfast is served in the restaurant. The courtyard has an outdoor pool. A steam room is also available, and massages are provided."],
+        "name" : "Moroccan"
+      },
+
+
+
+    {"tag": "service",
+        "patterns": ["What type of services does this hotel have ","What are the types of services in this hotel ?","How many types of service are in this hotel ? ?","What are the basic types of service in this hotel ","what are the type of services in this resort","what can this hotel provide","what can this resort implement","what can this hotel implement","whats in this hotel?","what does this hotel have?"],
+        "responses": [["Free WIFI", "Free breakfast", "Free parking", "Disabled access", "Outdoor pool", "Air conditioner"]],
+        "name" : "Atlas"
+      },
+    {"tag": "service",
+        "patterns": ["What type of services does this hotel have ","What are the types of services in this hotel ?","How many types of service are in this hotel ? ?","What are the basic types of service in this hotel ","what are the type of services in this resort","what can this hotel provide","what can this resort implement","what can this hotel implement","whats in this hotel?","what does this hotel have?"],
+     "responses": [["Free WIFI", "Free breakfast", "Free parking", "Disabled access", "Outdoor pool", "Air conditioner"]],
+     "name" : "berostar"
+      },
+     {"tag": "service",
+        "patterns": ["What type of services does this hotel have ","What are the types of services in this hotel ?","How many types of service are in this hotel ? ?","What are the basic types of service in this hotel ","what are the type of services in this resort","what can this hotel provide","what can this resort implement","what can this hotel implement","whats in this hotel?","what does this hotel have?"],
+     "responses": [["Free WIFI", "Free parking", "Family rooms", "Outdoor pool", "Pets allowed"]],
+     "name" : "Préstigia"
+      },
+     {"tag": "service",
+     "patterns": ["What type of services do this hotel ","What are the types of services in this hotel ?","How many types of service are in this hotel ? ?","What are the basic types of service in this hotel "],
+     "responses": [["Free WIFI", "Free breakfast", "Free parking", "Restaurant", "Outdoor pool", "Family rooms"]],
+     "name" : "golf"
+      },
+
+    {"tag": "service",
+        "patterns": ["What type of services does this hotel have ","What are the types of services in this hotel ?","How many types of service are in this hotel ? ?","What are the basic types of service in this hotel ","what are the type of services in this resort","what can this hotel provide","what can this resort implement","what can this hotel implement","whats in this hotel?","what does this hotel have?"],
+     "responses": [["Free WIFI", "Family rooms", "Free parking"]],
+     "name" : "Flashback"
+      },
+     {"tag": "service",
+        "patterns": ["What type of services does this hotel have ","What are the types of services in this hotel ?","How many types of service are in this hotel ? ?","What are the basic types of service in this hotel ","what are the type of services in this resort","what can this hotel provide","what can this resort implement","what can this hotel implement","whats in this hotel?","what does this hotel have?"],
+     "responses": [["Free WIFI", "Free breakfast", "Free parking", "Disabled access", "Outdoor pool", "Air conditioner"]],
+     "name" : "Labranda"
+      },
+
+
+     {"tag": "almas",
+       "patterns": ["hotel almas","hotel almas","hotel almas","hotel almas"],
+       "responses": ["what you want now about almas hotel ?"],
+      "name" : "almas"
+      },
+    {"tag": "sofitel",
+       "patterns": ["hotel sofitel","hotel sofitel","hotel sofitel","hotel sofitel"],
+       "responses": ["what you want now about sofitel hotel ?"],
+      "name" : "sofitel"
+      },
+    {"tag": "ibis",
+       "patterns": ["hotel ibis","hotel ibis","hotel ibis","hotel ibis"],
+       "responses": ["what you want now about ibis hotel ?"],
+      "name" : "ibis"
+      },
+
+    {"tag": "Racine",
+       "patterns": ["Hotel Racine","Hotel Racine","Hotel Racine","Hotel Racine","Hotel Racine","Hotel Racine"],
+       "responses": ["what you want now about Hotel Hotel Racine ?"],
+      "name" : "Racine"
+      },
+    {"tag": "Moroccan",
+       "patterns": ["Hotel Moroccan House","Hotel Moroccan House","Hotel Moroccan House","Hotel Moroccan House"],
+       "responses": ["what you want now about Hotel Moroccan House ?"],
+      "name" : "Moroccan"
+      },
+
+    {"tag": "Labranda",
+       "patterns": ["Hotel Labranda Targa Aqua Parc","Hotel Labranda Targa Aqua Parc","Hotel Labranda Targa Aqua Parc","Hotel Labranda Targa Aqua Parc","Hotel Labranda Targa Aqua Parc"],
+       "responses": ["what you want now about  Labranda Targa Aqua Parc hotel ?"],
+      "name" : "Labranda"
+      },
+     {"tag": "berostar",
+       "patterns": ["Hotel berostar Club Palmeraie","Hotel berostar Club Palmeraie","Hotel berostar Club Palmeraie","Hotel berostar Club Palmeraie"],
+       "responses": ["what you want now about berostar Club Palmeraie hotel ?"],
+      "name" : "berostar"
+      },
+    {"tag": "Atlas",
+       "patterns": ["Hotel Atlas Asni","Hotel Atlas Asni","Hotel Atlas Asni","Hotel Atlas Asni"],
+       "responses": ["what you want now about Atlas Asni hotel ?"],
+      "name" : "Atlas"
+      },
+    {"tag": "Resort",
+       "patterns": ["Hotel Four Seasons Resort","Hotel Four Seasons Resort","Hotel Four Seasons Resort","Hotel Four Seasons Resort","Hotel Four Seasons Resort","Hotel Four Seasons Resort"],
+       "responses": ["what you want now about Four Seasons Resort hotel ?"],
+      "name" : "Resort"
+      },
+    {"tag": "Oberoi",
+       "patterns": ["Hotel The Oberoi Marrakech","Hotel The Oberoi Marrakech","Hotel The Oberoi Marrakech","Hotel The Oberoi Marrakech","Hotel The Oberoi Marrakech"],
+       "responses": ["what you want now about The Oberoi Marrakech hotel ?"],
+      "name" : "Oberoi"
+      },
+     {"tag": "Fairmont",
+       "patterns": ["Hotel Fairmont Royal Palm Marrakech","Hotel Fairmont Royal Palm Marrakech","Hotel Fairmont Royal Palm Marrakech"],
+       "responses": ["what you want now about  Fairmont Royal Palm Marrakech hotel ?"],
+      "name" : "Fairmont"
+      },
+     {"tag": "Flashback",
+       "patterns": ["Hotel Flashback House","Hotel Flashback House","Hotel Flashback House","Hotel Flashback House"],
+       "responses": ["what you want now about Flashback House hotel ?"],
+      "name" : "Flashback"
+      },
+     {"tag": "Préstigia",
+       "patterns": ["Hotel Préstigia Marrakech","Hotel Préstigia Marrakech","Hotel Préstigia Marrakech","Hotel Préstigia Marrakech","Hotel Préstigia Marrakech","Hotel Préstigia Marrakech"],
+       "responses": ["what you want now about Préstigia Marrakech hotel ?"],
+      "name" : "Préstigia"
+      },
+
+     {"tag": "golf",
+       "patterns": ["Hotel Marrakech golf City prestigia","Hotel Marrakech golf City prestigia","Hotel Marrakech golf City prestigia","Hotel Marrakech golf City prestigia"],
+       "responses": ["what you want now about  Marrakech golf City prestigia hotel ?"],
+      "name" : "golf"
+      },
+    {"tag": "3stars",
+       "patterns": ["What are the best 3 stars hotels in marrakech ?", "Show me a list of 3 stars hotels in marrakech ?", "What are the famous 3 stars hotels in marrakech ?", "give me a list of 3 stars hotels","list of hotels that have 3 stars","show me the hotels that have 3 stars","What are the best 3 stars hotels in marrakech ?", "Show me a list of 3 stars  hotels in marrakech ?", "What are the famous 3 stars hotel in marrakech ?", "How many 3 stars  hotels in marrakech ?","show me a list of 3 stars hotel","list of 3 stars hotel","hello plz find the best 3 stars hotels near marrakech","i'm looking for the best 3 stars hotels near marrakech thanks","the best 3 stars hotels in the area of marrakech","the famous 3 stars hotel  located at marrakech","the best 3 stars  hotel located at marrakech","hi please i'm looking for 3 stars   hotels near marrakech thanks","3 stars  hotel near marrakech","hey please help me find the famous 3 stars  hotel located at marrakech thank you","can you show me list of 3 stars  hotels here in marrakech","What are the best 3 stars  hotels in this city","let me see a list of 3 stars  hotels in this city","can i have a list of 3 stars  hotels here in marrakech","can you show me list of 3 stars  hotels here in marrakech"],
+       "responses": [["Hotel Almas" , "Hotel Moroccan House", "Hotel Racine","Hotel ibis"]],
+       "name" : ""
+      },
+
+    {"tag": "4stars",
+       "patterns": ["What are the best 4 stars hotels in marrakech ?", "Show me a list of 4 stars hotels in marrakech ?", "What are the famous 4 stars hotels in marrakech ?", "give me a list of 4 stars hotels","list of hotels that have 4 stars","show me the hotels that have 4 stars","What are the best 4 stars hotels in marrakech ?", "Show me a list of 4 stars  hotels in marrakech ?", "What are the famous 4 stars hotel in marrakech ?", "How many 4 stars  hotels in marrakech ?","show me a list of 4 stars hotel","list of 4 stars hotel","hello plz find the best 4 stars hotels near marrakech","i'm looking for the best 4 stars hotels near marrakech thanks","the best 4 stars hotels in the area of marrakech","the famous 4 stars hotel  located at marrakech","the best 4 stars  hotel located at marrakech","hi please i'm looking for 4 stars   hotels near marrakech thanks","4 stars  hotel near marrakech","hey please help me find the famous 4 stars  hotel located at marrakech thank you","can you show me list of 4 stars  hotels here in marrakech","What are the best 4 stars  hotels in this city","let me see a list of 4 stars  hotels in this city","can i have a list of 4 stars  hotels here in marrakech","can you show me list of 4 stars  hotels here in marrakech"],
+       "responses": [["Hotel Labranda Targa Aqua Parc" , "Hotel berostar Club Palmeraie", "Hotel Atlas Asni","Hotel Flashback House","Hotel Marrakech golf City prestigia","Hotel Préstigia Marrakech"]],
+       "name" : ""
+      },
+
+    {"tag": "5stars",
+       "patterns": ["What are the best 5 stars hotels in marrakech ?", "Show me a list of 5 stars hotels in marrakech ?", "What are the famous 5 stars hotels in marrakech ?", "give me a list of 5 stars hotels","list of hotels that have 5 stars","show me the hotels that have 5 stars"],
+       "responses": [["Hotel Four Seasons Resort" , "Hotel The Oberoi Marrakech", "Hotel Fairmont Royal Palm Marrakech","Hotel sofitel"]],
+      "name" : ""
+      },
+
+    {"tag": "downtown_hotels",
+       "patterns": ["hotels near downtown", "hotels near downtown area", "What are the famous hotel near downtown ?", "give me a list of hotels near downtown","hotels near Jemaa El-fna","What are the famous hotel near Jemaa El-fna?","What are the famous hotel by downtown ?","give me a list of hotel by downtown ?","hotels close to downtown","What are the famous hotel close to Jemaa El-fna?","What are the famous hotel close to downtown?"],
+       "responses": [["Hotel Four Seasons Resort" , "Hotel Moroccan House", "Hotel Atlas Asni"]],
+       "name" : ""
+      },
+
+    {"tag": "aeroport_hotels",
+       "patterns": ["hotels near the aeroport", "hotels near the aeroport area", "What are the famous hotel near the aeroport ?", "give me a list of hotels near the aeroport","What are the famous hotel by the aeroport ?","give me a list of hotel by the aeroport ?","What are the famous hotel close to the aeroport?","give me a list of hotel close to  the aeroport ?","hotels close to the aeroport"],
+       "responses": [["Hotel Flashback House" , "Hotel Préstigia Marrakech", "Hotel Marrakech golf City prestigia"]],
+       "name" : ""
+
+      },
+    {"tag": "roomsprice",
+       "patterns": ["What are the types of room in this hotel?","what are the different types of rooms in this hotel","type of room in this hotel","What is the price range in this hotel","How much does it cost for one night","Do you mind telling me how much it cost?","How much does it cost for one night","How much a room cost?","What is the price range in this hotel?","what is the price for a night?","the average price of the room in this hotel","What are the types of rooms in this resort thanks","What are the types of rooms in this motel thanks","What are the types of rooms in this motel thank you","What are the different types of room in this hotel","What are the different types of room in this motel","What are the different types of room in this resort thank you","What is the price range in this motel","can you tell me how much its worth"],
+        "responses": [["Standard Twin Room","Superior Twin Room","Deluxe Room","Junior Suite"]],
+        "name": "Racine"
+      },
+
+    {"tag": "type1",
+        "patterns": ["Standard Twin Room"],
+        "responses": [["Price for 1 night: 453 MAD","Size: 18 m² ","Guests: 2","Bed type: King-size bed","Bathroom","Flat screen TV"]],
+        "name": "Racine"
+      },
+
+    {"tag": "type2",
+        "patterns": ["Superior Twin Room"],
+        "responses": [["Price for 1 night: 622 MAD","Size: 24 m²","Guests: 2","Bed type: King-size bed","Bathroom","Flat screen TV","Extra wide beds"]],
+        "name": "Racine"
+      },
+
+    {"tag": "type3",
+        "patterns": ["Deluxe Room"],
+        "responses": [["Price for 1 night: 932 MAD","Size: 38 m²","Guests: 2","Bed type: 1 King-size bed and 2 single beds","Bathroom","Flat screen TV","Extra wide beds"]],
+        "name": "Racine"
+      },
+
+    {"tag": "type4",
+        "patterns": ["Junior Suite"],
+        "responses": [["Price for 1 night: 1074 MAD","Size: 40 m²","Guests: 2","Bed type: 1 King-size bed and 1 single beds","Bathroom","Flat screen TV","Extra wide beds"]],
+        "name": "Racine"
+      },
+
+
+    {"tag": "roomsprice",
+       "patterns": ["What are the types of room in this hotel?","what are the different types of rooms in this hotel","type of room in this hotel","What is the price range in this hotel","How much does it cost for one night","Do you mind telling me how much it cost?","How much does it cost for one night","How much a room cost?","What is the price range in this hotel?","what is the price for a night?","the average price of the room in this hotel","What are the types of rooms in this resort thanks","What are the types of rooms in this motel thanks","What are the types of rooms in this motel thank you","What are the different types of room in this hotel","What are the different types of room in this motel","What are the different types of room in this resort thank you","What is the price range in this motel","can you tell me how much its worth"],
+        "responses": [["Standard Double Room","Standard Twin Room","Double room Sweet","Junior Suite"]],
+        "name": "ibis"
+      },
+
+    {"tag": "type1",
+        "patterns": ["Standard Double Room"],
+        "responses": [["Price for 1 night: 488 MAD","Size: 12 m² ","Bed type: 1 double bed","Bathroom","View on the garden","View on the city","Climatisation"]],
+        "name": "ibis"
+      },
+
+    {"tag": "type2",
+        "patterns": ["Standard Twin Room"],
+        "responses": [["Price for 1 night: 488 MAD","Size: 12 m² ","Bed type: 2 single beds","Bathroom","View on the garden","View on the city","Climatisation"]],
+        "name": "ibis"
+      },
+
+    {"tag": "type3",
+        "patterns": ["Double room Sweet"],
+        "responses": [["Price for 1 night: 524 MAD","Size: 12 m² ","Bed type: 1 double bed","Flat screen television","Bathroom","View on the garden","View on the city","Climatisation"]],
+        "name": "ibis"
+      },
+
+    {"tag": "type4",
+        "patterns": ["Junior Suite"],
+        "responses": [["Price for 1 night: 524 MAD","Size: 12 m² ","Bed type: 2 single beds ","Flat screen television","Bathroom","View on the garden","View on the city","Climatisation"]],
+        "name": "ibis"
+      },
+
+    {"tag": "roomsprice",
+       "patterns": ["What are the types of room in this hotel?","what are the different types of rooms in this hotel","type of room in this hotel","What is the price range in this hotel","How much does it cost for one night","Do you mind telling me how much it cost?","How much does it cost for one night","How much a room cost?","What is the price range in this hotel?","what is the price for a night?","the average price of the room in this hotel","What are the types of rooms in this resort thanks","What are the types of rooms in this motel thanks","What are the types of rooms in this motel thank you","What are the different types of room in this hotel","What are the different types of room in this motel","What are the different types of room in this resort thank you","What is the price range in this motel","can you tell me how much its worth"],
+        "responses": [["Twin Room","Suite (2 Adults)","Single room","Triple room"]],
+        "name": "almas"
+      },
+
+    {"tag": "type1",
+        "patterns": ["Twin Room"],
+        "responses": [["Price for 1 night: 464 MAD","Size: 36 m² ","Guests: 2","Bed type: 2 single beds ","Flat screen television","Bathroom","Fully Wheelchair Accessible Room","Desk","Climatisation"]],
+        "name": "almas"
+      },
+
+    {"tag": "type2",
+        "patterns": ["Suite (2 Adults)"],
+        "responses": [["Price for 1 night: 564 MAD","Size: 40 m² ","Guests: 2","Bed type: 2 single beds ","Flat screen television","Bathroom","Fully Wheelchair Accessible Room","Desk","Climatisation"]],
+        "name": "almas"
+      },
+
+    {"tag": "type3",
+        "patterns": ["Single room"],
+        "responses": [["Price for 1 night: 423 MAD","Size: 30 m² ","Guests: 1","Bed type: 1 single beds ","Flat screen television","Bathroom","Fully Wheelchair Accessible Room","Desk","Climatisation"]],
+        "name": "almas"
+      },
+
+    {"tag": "type4",
+        "patterns": ["Triple room"],
+        "responses": [["Price for 1 night: 524 MAD","Size: 30 m² ","Bed type: 3 single beds ","Flat screen television","Bathroom","View on the garden","View on the city","Climatisation"]],
+        "name": "almas"
+      },
+
+    {"tag": "roomsprice",
+       "patterns": ["What are the types of room in this hotel?","what are the different types of rooms in this hotel","type of room in this hotel","What is the price range in this hotel","How much does it cost for one night","Do you mind telling me how much it cost?","How much does it cost for one night","How much a room cost?","What is the price range in this hotel?","what is the price for a night?","the average price of the room in this hotel","What are the types of rooms in this resort thanks","What are the types of rooms in this motel thanks","What are the types of rooms in this motel thank you","What are the different types of room in this hotel","What are the different types of room in this motel","What are the different types of room in this resort thank you","What is the price range in this motel","can you tell me how much its worth"],
+        "responses": [["Twin Room","Suite","Classic Triple Room","Single room"]],
+        "name": "Moroccan"
+      },
+
+    {"tag": "type1",
+        "patterns": ["Twin Room"],
+        "responses": [["Price for 1 night: 297 MAD","Size: 18 m² ","Guests: 2","Bed type: 1 large double bed ","Flat screen television","Bathroom","Free Wi-Fi","Satellite channels","Climatisation"]],
+        "name": "Moroccan"
+      },
+
+    {"tag": "type2",
+        "patterns": ["Suite"],
+        "responses": [["Price for 1 night: 297 MAD","Size: 32 m² ","Guests: 2","Bed type: 2 large double bed ","Flat screen television","Bathroom","Free Wi-Fi","Satellite channels","Climatisation"]],
+        "name": "Moroccan"
+      },
+
+    {"tag": "type3",
+        "patterns": ["Classic Triple Room"],
+        "responses": [["Price for 1 night: 374 MAD","Size: 30 m² ","Guests: 3","Bed type: 3 single beds ","Flat screen television","Bathroom","Free Wi-Fi","Satellite channels","Climatisation"]],
+        "name": "Moroccan"
+      },
+
+    {"tag": "type4",
+        "patterns": ["Single room"],
+        "responses": [["Price for 1 night: 233 MAD","Size: 15 m² ","Bed type: 1 large double bed","Flat screen television","Bathroom","View on the garden","View on the city","Climatisation"]],
+        "name": "Moroccan"
+      },
+
+
+
+     {"tag": "roomsprice",
+       "patterns": ["What are the types of room in this hotel?","what are the different types of rooms in this hotel","type of room in this hotel","What is the price range in this hotel","How much does it cost for one night","Do you mind telling me how much it cost?","How much does it cost for one night","How much a room cost?","What is the price range in this hotel?","what is the price for a night?","the average price of the room in this hotel","What are the types of rooms in this resort thanks","What are the types of rooms in this motel thanks","What are the types of rooms in this motel thank you","What are the different types of room in this hotel","What are the different types of room in this motel","What are the different types of room in this resort thank you","What is the price range in this motel","can you tell me how much its worth"],
+        "responses": [["King-Size Bed Room with Terrace","Premier Twin Room with Terrace","King-Size Bed Suite with Patio and Private Pool","2 Bedroom Villa with Private Pool"]],
+        "name": "Resort"
+      },
+
+    {"tag": "type1",
+        "patterns": ["King-Size Bed Room with Terrace"],
+        "responses": [["Price for 1 night: 4 138 MAD","Size: 42 m² ","Guests: 2","Bed type: 1 large double bed ","Flat screen television","Bathroom private","Free Wi-Fi","Satellite channels","Climatisation","Terrace","Free parking"]],
+        "name": "Resort"
+      },
+
+    {"tag": "type2",
+        "patterns": ["Premier Twin Room with Terrace"],
+        "responses": [["Price for 1 night: 4 509 MAD","Size: 42 m² ","Guests: 2","Bed type: 2 single beds  ","Flat screen television","Bathroom","Free Wi-Fi","Satellite channels","Climatisation"]],
+        "name": "Resort"
+      },
+
+    {"tag": "type3",
+        "patterns": ["King-Size Bed Suite with Patio and Private Pool"],
+        "responses": [["Price for 1 night: 8 488 MAD","Size: 70 m² ","Bed type:  1 very large double bed and 1 sofa bed  ","Flat screen television","Bathroom private","Free Wi-Fi","Satellite channels","Climatisation","private pool"]],
+        "name": "Resort"
+      },
+
+    {"tag": "type4",
+        "patterns": ["2 Bedroom Villa with Private Pool"],
+        "responses": [["Price for 1 night: 25 091 MAD","Size: 160 m² ","Bed type: 2 large double bed","Flat screen television","Bathroom private","View on the garden","View on the city","Climatisation","private pool"]],
+        "name": "Resort"
+      },
+
+
+
+    {"tag": "roomsprice",
+       "patterns": ["What are the types of room in this hotel?","what are the different types of rooms in this hotel","type of room in this hotel","What is the price range in this hotel","How much does it cost for one night","Do you mind telling me how much it cost?","How much does it cost for one night","How much a room cost?","What is the price range in this hotel?","what is the price for a night?","the average price of the room in this hotel","What are the types of rooms in this resort thanks","What are the types of rooms in this motel thanks","What are the types of rooms in this motel thank you","What are the different types of room in this hotel","What are the different types of room in this motel","What are the different types of room in this resort thank you","What is the price range in this motel","can you tell me how much its worth"],
+        "responses": [["Deluxe Twin Room with Mountain View","Twin Room with View","Junior Suite"]],
+        "name": "Fairmont"
+      },
+
+    {"tag": "type1",
+        "patterns": ["Deluxe Twin Room with Mountain View"],
+        "responses": [["Price for 1 night: 3 732 MAD","Size: 72 m² ","Guests: 2","Bed type:2 single beds ","Coffee machine","Free parking","Balcony","Flat screen television","Private bathroom","Free Wi-Fi","Satellite channels","Climatisation"]],
+        "name": "Fairmont"
+      },
+
+    {"tag": "type2",
+        "patterns": ["Twin Room with View"],
+        "responses": [["Price for 1 night: 4 212 MAD","Size: 72 m² ","Guests: 2","Bed type: 2 single beds  ","Flat screen television","Free Wi-Fi","Satellite channels","Climatisation"]],
+        "name": "Fairmont"
+      },
+
+    {"tag": "type3",
+        "patterns": ["Junior Suite"],
+        "responses": [["Price for 1 night: 8 488 MAD","Size: 86 m² ","Bed type: 1 double bed","Flat screen television","Private bathroom","Coffee machine"," Free parking","Free Wi-Fi","Balcony","Satellite channels","Climatisation"]],
+        "name": "Fairmont"
+      },
+    {"tag": "roomsprice",
+       "patterns": ["What are the types of room in this hotel?","what are the different types of rooms in this hotel","type of room in this hotel","What is the price range in this hotel","How much does it cost for one night","Do you mind telling me how much it cost?","How much does it cost for one night","How much a room cost?","What is the price range in this hotel?","what is the price for a night?","the average price of the room in this hotel","What are the types of rooms in this resort thanks","What are the types of rooms in this motel thanks","What are the types of rooms in this motel thank you","What are the different types of room in this hotel","What are the different types of room in this motel","What are the different types of room in this resort thank you","What is the price range in this motel","can you tell me how much its worth"],
+        "responses": [["Standard simple room","Standard Double room","Junior Suite with Pool View","Premium Suite with Atlas View"]],
+        "name": "Atlas"
+      },
+
+    {"tag": "type1",
+        "patterns": ["Standard simple room"],
+        "responses": [["Price for 1 night: 753,89 MAD","Size: 15 m² ","Bed type: 1 simple bed","Bathroom","View","Flat screen TV","Air conditioner"]],
+        "name": "Atlas"
+      },
+
+    {"tag": "type2",
+        "patterns": ["Standard Double room"],
+        "responses": [["Price for 1 night: 796,33 MAD","Size: 35 m² ","Bed type: 1 double bed ","Bathroom","View","Flat screen TV","Air conditioner"]],
+        "name": "Atlas"
+      },
+
+    {"tag": "type3",
+        "patterns": ["Junior Suite with Pool View"],
+        "responses": [["Price for 1 night: 1401,53 MAD","Size: 60 m² ","Bed type: 1 double bed,1 sofa","Flat screen television","Bathroom","View","Air conditioner"]],
+        "name": "Atlas"
+      },
+
+    {"tag": "type4",
+        "patterns": ["Premium Suite with Atlas View"],
+        "responses": [["Price for 1 night: 1603,24 MAD","Size: 63 m² ","Bed type:1 double bed,1 sofa ","Flat screen television","Bathroom","View","Air conditioner"]],
+        "name": "Atlas"
+      },
+
+     {"tag": "roomsprice",
+       "patterns": ["What are the types of room in this hotel?","what are the different types of rooms in this hotel","type of room in this hotel","What is the price range in this hotel","How much does it cost for one night","Do you mind telling me how much it cost?","How much does it cost for one night","How much a room cost?","What is the price range in this hotel?","what is the price for a night?","the average price of the room in this hotel","What are the types of rooms in this resort thanks","What are the types of rooms in this motel thanks","What are the types of rooms in this motel thank you","What are the different types of room in this hotel","What are the different types of room in this motel","What are the different types of room in this resort thank you","What is the price range in this motel","can you tell me how much its worth"],
+        "responses": [["Apartment with Pool View"]],
+        "name": "Préstigia"
+      },
+
+    {"tag": "type1",
+        "patterns": ["Apartment with Pool View"],
+        "responses": [["Price for 1 night: 3143,37 MAD","Size: 103 m² ","Bedroom 1: 1 large double bed","Bedroom 2: 1 large double bed","Bathroom","Mountain view","Flat screen TV","Air conditioner","Balcony","Free Wi-Fi"]],
+        "name": "Préstigia"
+      },
+
+
+     {"tag": "roomsprice",
+       "patterns": ["What are the types of room in this hotel?","what are the different types of rooms in this hotel","type of room in this hotel","What is the price range in this hotel","How much does it cost for one night","Do you mind telling me how much it cost?","How much does it cost for one night","How much a room cost?","What is the price range in this hotel?","what is the price for a night?","the average price of the room in this hotel","What are the types of rooms in this resort thanks","What are the types of rooms in this motel thanks","What are the types of rooms in this motel thank you","What are the different types of room in this hotel","What are the different types of room in this motel","What are the different types of room in this resort thank you","What is the price range in this motel","can you tell me how much its worth"],
+        "responses": [["Apartment"]],
+        "name": "golf"
+      },
+
+    {"tag": "type1",
+        "patterns": ["Apartment"],
+        "responses": [["Price for 1 night: 753,89 MAD","Size: 85 m² ","Bedroom 1: 1 large double bed","Bedroom 2: 1 large double bed","Bathroom","Mountain view","Flat screen TV","Air conditioner","Balcony","Free Wi-Fi"]],
+        "name": "golf"
+      },
+
+
+
+     {"tag": "roomsprice",
+       "patterns": ["What are the types of room in this hotel?","what are the different types of rooms in this hotel","type of room in this hotel","What is the price range in this hotel","How much does it cost for one night","Do you mind telling me how much it cost?","How much does it cost for one night","How much a room cost?","What is the price range in this hotel?","what is the price for a night?","the average price of the room in this hotel","What are the types of rooms in this resort thanks","What are the types of rooms in this motel thanks","What are the types of rooms in this motel thank you","What are the different types of room in this hotel","What are the different types of room in this motel","What are the different types of room in this resort thank you","What is the price range in this motel","can you tell me how much its worth"],
+        "responses": [["Standard Double Accommodation - Garden View","Standard Double Accommodation - Pool View","Standard Family Room with Pool View","Suite"]],
+        "name": "Labranda"
+      },
+
+    {"tag": "type1",
+        "patterns": ["Standard Double Accommodation - Garden View"],
+        "responses": [["Price for 1 night:  933 MAD","Size: 28 m² ","Bed type: 2 single beds and 1 double bed","Bathroom","Garden view","Flat screen TV","Air conditioner"]],
+        "name": "Labranda"
+      },
+
+    {"tag": "type2",
+        "patterns": ["Standard Double Accommodation - Pool View"],
+        "responses": [["Price for 1 night: 991 MAD","Size: 28 m² ","Bed type: 2 single beds and 1 double bed ","Bathroom","Swimming pool with view","Flat screen TV","Air conditioner"]],
+        "name": "Labranda"
+      },
+     {"tag": "type3",
+        "patterns": ["Standard Family Room with Pool View"],
+        "responses": [["Price for 1 night: 1 476 MAD","Size: 32 m² ","Bed type: 2 single beds and 1 double bed","Flat screen television","Bathroom","Swimming pool with view","Air conditioner"]],
+        "name": "Labranda"
+      },
+
+    {"tag": "type4",
+        "patterns": ["Suite"],
+        "responses": [["Price for 1 night: MAD 1 903 MAD","Size: 60 m² ","Bed type: 1 double bed and 2 sofas","Flat screen television","Bathroom","View","Air conditioner"]],
+        "name": "Labranda"
+      },
+
+
+     {"tag": "roomsprice",
+       "patterns": ["What are the types of room in this hotel?","what are the different types of rooms in this hotel","type of room in this hotel","What is the price range in this hotel","How much does it cost for one night","Do you mind telling me how much it cost?","How much does it cost for one night","How much a room cost?","What is the price range in this hotel?","what is the price for a night?","the average price of the room in this hotel","What are the types of rooms in this resort thanks","What are the types of rooms in this motel thanks","What are the types of rooms in this motel thank you","What are the different types of room in this hotel","What are the different types of room in this motel","What are the different types of room in this resort thank you","What is the price range in this motel","can you tell me how much its worth"],
+        "responses": [["studio","family studio"]],
+        "name": "Flashback"
+      },
+
+    {"tag": "type1",
+        "patterns": ["studio"],
+        "responses": [["Price for 1 night: 252 MAD","Size: 40 m² ","Bed type: 1 large double bed, 2 sofas","Bathroom","View","Flat screen TV","Air conditioner","Balcony","Free Wi-Fi"]],
+        "name": "Flashback"
+      },
+
+    {"tag": "type2",
+        "patterns": ["family studio"],
+        "responses": [["Price for 1 night: 302 MAD","Size: 50 m² ","Bed type: 1 large double bed, 2 futons ","Bathroom","View","Flat screen TV","Air conditioner","Balcony","Free Wi-Fi"]],
+        "name": "Flashback"
+      },
+
+
+     {"tag": "roomsprice",
+       "patterns": ["What are the types of room in this hotel?","what are the different types of rooms in this hotel","type of room in this hotel","What is the price range in this hotel","How much does it cost for one night","Do you mind telling me how much it cost?","How much does it cost for one night","How much a room cost?","What is the price range in this hotel?","what is the price for a night?","the average price of the room in this hotel","What are the types of rooms in this resort thanks","What are the types of rooms in this motel thanks","What are the types of rooms in this motel thank you","What are the different types of room in this hotel","What are the different types of room in this motel","What are the different types of room in this resort thank you","What is the price range in this motel","can you tell me how much its worth"],
+        "responses": [["Simple room","Double room","Double room with pool view","Triple room"]],
+        "name": "berostar"
+      },
+      {"tag": "type1",
+        "patterns": ["Simple room"],
+        "responses": [["Price for 1 night: 1 147 MAD","Size: 32 m² ","Bed type: 1 single bed ","Bathroom","View","Flat screen TV","Air conditioner","Free Wi-Fi"]],
+        "name": "berostar"
+      },
+
+    {"tag": "type2",
+        "patterns": ["Double room"],
+        "responses": [["Price for 1 night: 753,89 MAD","Size: 32 m² ","Bed type: 2 single beds","Bathroom","View","Flat screen TV","Air conditioner","Free Wi-Fi"]],
+        "name": "berostar"
+      },
+    {"tag": "type3",
+        "patterns": ["Double room with pool view"],
+        "responses": [["Price for 1 night: 1 663 MAD","Size: 32 m² ","Bed type:1 double bed and 1 sofa ","Flat screen television","Bathroom","View","Air conditioner","Free Wi-Fi"]],
+        "name": "berostar"
+      },
+    {"tag": "type4",
+        "patterns": ["Triple room"],
+        "responses": [["Price for 1 night: 2 064 MAD","Size: 32 m² ","Bed type: 1 double bed and 1 sofa","Flat screen television","Bathroom","View","Air conditioner","Free Wi-Fi"]],
+        "name": "berostar"
+      },
+
+
+
+    {"tag": "roomsprice",
+       "patterns": ["What are the types of room in this hotel?","what are the different types of rooms in this hotel","type of room in this hotel","What is the price range in this hotel","How much does it cost for one night","Do you mind telling me how much it cost?","How much does it cost for one night","How much a room cost?","What is the price range in this hotel?","what is the price for a night?","the average price of the room in this hotel","What are the types of rooms in this resort thanks","What are the types of rooms in this motel thanks","What are the types of rooms in this motel thank you","What are the different types of room in this hotel","What are the different types of room in this motel","What are the different types of room in this resort thank you","What is the price range in this motel","can you tell me how much its worth"],
+        "responses": [["Twin beds Room","Deluxe Double Room ","Deluxe Villa with King Size Bed","Deluxe Villa with twin beds"]],
+        "name": "Oberoi"
+      },
+      {"tag": "type1",
+        "patterns": ["Twin beds Room"],
+        "responses": [["Price for 1 night: 5 456 MAD","Size: 70 m² ","Bed type: 2 single beds ","Bathroom","Garden view","Flat screen TV","Air conditioner","Free Wi-Fi","Private Terrace"]],
+        "name": "Oberoi"
+      },
+
+    {"tag": "type2",
+        "patterns": ["Deluxe Double Room"],
+        "responses": [["Price for 1 night: 5 456 MAD","Size: 70 m² ","Bed type: 1 king bed","Bathroom","Garden view, Mountain view","Flat screen TV","Air conditioner","Free Wi-Fi","Private Terrace"]],
+        "name": "Oberoi"
+      },
+
+    {"tag": "type3",
+        "patterns": ["Deluxe Villa with King Size Bed"],
+        "responses": [["Price for 1 night: 7 134 MAD","Entire villa","Size: 72 m² ","Bed type: 1 King Size Bed","Flat screen television","Bathroom","View","Air conditioner","Free Wi-Fi","Private Pool"]],
+        "name": "Oberoi"
+      },
+
+      {"tag": "type4",
+        "patterns": ["Deluxe Villa with twin beds"],
+        "responses": [["Price for 1 night: 1 663 MAD","Entire villa","Size: 72 m² ","Bed type: 2 single beds ","Flat screen television","Bathroom","View","Air conditioner","Free Wi-Fi","Private Pool"]],
+        "name": "Oberoi"
+      },
+
+    {"tag": "roomsprice",
+       "patterns": ["What are the types of room in this hotel?","what are the different types of rooms in this hotel","type of room in this hotel","What is the price range in this hotel","How much does it cost for one night","Do you mind telling me how much it cost?","How much does it cost for one night","How much a room cost?","What is the price range in this hotel?","what is the price for a night?","the average price of the room in this hotel","What are the types of rooms in this resort thanks","What are the types of rooms in this motel thanks","What are the types of rooms in this motel thank you","What are the different types of room in this hotel","What are the different types of room in this motel","What are the different types of room in this resort thank you","What is the price range in this motel","can you tell me how much its worth"],
+        "responses": [["Superior King Room","Deluxe King Room","Junior suite","Prestige King Suite"]],
+        "name": "sofitel"
+      },
+      {"tag": "type1",
+        "patterns": ["Superior King Room"],
+        "responses": [["Price for 1 night: 2 400 MAD","Size: 30 m² ","Bed type: 1 king bed ","Bathroom","City view","Flat screen TV","Air conditioner","Free Wi-Fi","Balcony"]],
+        "name": "sofitel"
+      },
+
+    {"tag": "type2",
+        "patterns": ["Deluxe Double Room"],
+        "responses": [["Price for 1 night: 2 640 MAD","Size: 30 m² ","Bed type: 1 king bed ","Bathroom","Garden view,Pool view","Flat screen TV","Air conditioner","Free Wi-Fi","Balcony"]],
+        "name": "sofitel"
+      },
+
+    {"tag": "type3",
+        "patterns": ["Junior suite"],
+        "responses": [["Price for 1 night: 3 120 MAD","Size: 44 m² ","Bed type: 1 King Size Bed","Flat screen television","Bathroom","City view","Air conditioner","Free Wi-Fi","soundproofing"]],
+        "name": "sofitel"
+      },
+
+      {"tag": "type4",
+        "patterns": ["Prestige King Suite"],
+        "responses": [["Price for 1 night: 4 240 MAD","Size: 68 m² ","Bed type:1 King Size Bed ","Flat screen television","Bathroom","Mountain View","Air conditioner","Free Wi-Fi","Terrace","Balcony"]],
+        "name": "sofitel"
+      },
+
+    {"tag": "pool",
+    "patterns": ["How manny swimming pool does this hotel have?","Does this hotel have a swimming pool ?","Does this hotel have a pool ? ","Is there a pool in this hotel? ","how many pools in this hotel?","does this hotel have a swimming pool in it ?","How manny natatoruim does this hotel have","How manny swimming bath does this hotel have","How manny swimming bath does this resort have","How manny swimming pool does this motel have","How manny swimming bath does this motel have","Does this resort have a swimming pool","Does this hotel have a natatoruim","Does this resort have a natatoruim","Does this hotel have a swimming bath","Does this hotel have a natatoruim in it","Does this resort have a natatoruim in it","Is there a natatoruim in this hotel","Is there a swimming bath in this resort","Is there a swimming pool in this motel"],
+        "responses": ["Yes,this hotel has 1 swimming pool."],
+        "name" : "Atlas"
+      },
+    {"tag": "pool",
+    "patterns": ["How manny swimming pool does this hotel have?","Does this hotel have a swimming pool ?","Does this hotel have a pool ? ","Is there a pool in this hotel? ","how many pools in this hotel?","does this hotel have a swimming pool in it ?","How manny natatoruim does this hotel have","How manny swimming bath does this hotel have","How manny swimming bath does this resort have","How manny swimming pool does this motel have","How manny swimming bath does this motel have","Does this resort have a swimming pool","Does this hotel have a natatoruim","Does this resort have a natatoruim","Does this hotel have a swimming bath","Does this hotel have a natatoruim in it","Does this resort have a natatoruim in it","Is there a natatoruim in this hotel","Is there a swimming bath in this resort","Is there a swimming pool in this motel"],
+        "responses": ["Yes,this hotel has 1 swimming pool."],
+        "name" : "almas"
+      },
+    {"tag": "pool",
+    "patterns": ["How manny swimming pool does this hotel have?","Does this hotel have a swimming pool ?","Does this hotel have a pool ? ","Is there a pool in this hotel? ","how many pools in this hotel?","does this hotel have a swimming pool in it ?","How manny natatoruim does this hotel have","How manny swimming bath does this hotel have","How manny swimming bath does this resort have","How manny swimming pool does this motel have","How manny swimming bath does this motel have","Does this resort have a swimming pool","Does this hotel have a natatoruim","Does this resort have a natatoruim","Does this hotel have a swimming bath","Does this hotel have a natatoruim in it","Does this resort have a natatoruim in it","Is there a natatoruim in this hotel","Is there a swimming bath in this resort","Is there a swimming pool in this motel"],
+        "responses": ["Yes,this hotel has 1 swimming pool."],
+        "name" : "Moroccan"
+      },
+    {"tag": "pool",
+    "patterns": ["How manny swimming pool does this hotel have?","Does this hotel have a swimming pool ?","Does this hotel have a pool ? ","Is there a pool in this hotel? ","how many pools in this hotel?","does this hotel have a swimming pool in it ?","How manny natatoruim does this hotel have","How manny swimming bath does this hotel have","How manny swimming bath does this resort have","How manny swimming pool does this motel have","How manny swimming bath does this motel have","Does this resort have a swimming pool","Does this hotel have a natatoruim","Does this resort have a natatoruim","Does this hotel have a swimming bath","Does this hotel have a natatoruim in it","Does this resort have a natatoruim in it","Is there a natatoruim in this hotel","Is there a swimming bath in this resort","Is there a swimming pool in this motel"],
+        "responses": ["Yes,this hotel has 1 swimming pool."],
+        "name" : "Racine"
+      },
+     {"tag": "pool",
+    "patterns": ["How manny swimming pool does this hotel have?","Does this hotel have a swimming pool ?","Does this hotel have a pool ? ","Is there a pool in this hotel? ","how many pools in this hotel?","does this hotel have a swimming pool in it ?","How manny natatoruim does this hotel have","How manny swimming bath does this hotel have","How manny swimming bath does this resort have","How manny swimming pool does this motel have","How manny swimming bath does this motel have","Does this resort have a swimming pool","Does this hotel have a natatoruim","Does this resort have a natatoruim","Does this hotel have a swimming bath","Does this hotel have a natatoruim in it","Does this resort have a natatoruim in it","Is there a natatoruim in this hotel","Is there a swimming bath in this resort","Is there a swimming pool in this motel"],
+        "responses": ["Yes,this hotel has 1 swimming pool."],
+        "name" : "ibis"
+      },
+     {"tag": "pool",
+    "patterns": ["How manny swimming pool does this hotel have?","Does this hotel have a swimming pool ?","Does this hotel have a pool ? ","Is there a pool in this hotel? ","how many pools in this hotel?","does this hotel have a swimming pool in it ?","How manny natatoruim does this hotel have","How manny swimming bath does this hotel have","How manny swimming bath does this resort have","How manny swimming pool does this motel have","How manny swimming bath does this motel have","Does this resort have a swimming pool","Does this hotel have a natatoruim","Does this resort have a natatoruim","Does this hotel have a swimming bath","Does this hotel have a natatoruim in it","Does this resort have a natatoruim in it","Is there a natatoruim in this hotel","Is there a swimming bath in this resort","Is there a swimming pool in this motel"],
+        "responses": ["Yes,this hotel has 5 swimming pool."],
+        "name" : "Fairmont"
+      },
+    {"tag": "pool",
+    "patterns": ["How manny swimming pool does this hotel have?","Does this hotel have a swimming pool ?","Does this hotel have a pool ? ","Is there a pool in this hotel? ","how many pools in this hotel?","does this hotel have a swimming pool in it ?","How manny natatoruim does this hotel have","How manny swimming bath does this hotel have","How manny swimming bath does this resort have","How manny swimming pool does this motel have","How manny swimming bath does this motel have","Does this resort have a swimming pool","Does this hotel have a natatoruim","Does this resort have a natatoruim","Does this hotel have a swimming bath","Does this hotel have a natatoruim in it","Does this resort have a natatoruim in it","Is there a natatoruim in this hotel","Is there a swimming bath in this resort","Is there a swimming pool in this motel"],
+        "responses": ["Yes,this hotel has 1 swimming pool."],
+        "name" : "Préstigia"
+      },
+      {"tag": "pool",
+    "patterns": ["How manny swimming pool does this hotel have?","Does this hotel have a swimming pool ?","Does this hotel have a pool ? ","Is there a pool in this hotel? ","how many pools in this hotel?","does this hotel have a swimming pool in it ?","How manny natatoruim does this hotel have","How manny swimming bath does this hotel have","How manny swimming bath does this resort have","How manny swimming pool does this motel have","How manny swimming bath does this motel have","Does this resort have a swimming pool","Does this hotel have a natatoruim","Does this resort have a natatoruim","Does this hotel have a swimming bath","Does this hotel have a natatoruim in it","Does this resort have a natatoruim in it","Is there a natatoruim in this hotel","Is there a swimming bath in this resort","Is there a swimming pool in this motel"],
+        "responses": ["Yes,this hotel has 1 swimming pool."],
+        "name" : "golf"
+      },
+      {"tag": "pool",
+    "patterns": ["How manny swimming pool does this hotel have?","Does this hotel have a swimming pool ?","Does this hotel have a pool ? ","Is there a pool in this hotel? ","how many pools in this hotel?","does this hotel have a swimming pool in it ?","How manny natatoruim does this hotel have","How manny swimming bath does this hotel have","How manny swimming bath does this resort have","How manny swimming pool does this motel have","How manny swimming bath does this motel have","Does this resort have a swimming pool","Does this hotel have a natatoruim","Does this resort have a natatoruim","Does this hotel have a swimming bath","Does this hotel have a natatoruim in it","Does this resort have a natatoruim in it","Is there a natatoruim in this hotel","Is there a swimming bath in this resort","Is there a swimming pool in this motel"],
+        "responses": ["No,this hotel does not have any swimming pool."],
+        "name" : "Flashback"
+      },
+      {"tag": "pool",
+    "patterns": ["How manny swimming pool does this hotel have?","Does this hotel have a swimming pool ?","Does this hotel have a pool ? ","Is there a pool in this hotel? ","how many pools in this hotel?","does this hotel have a swimming pool in it ?","How manny natatoruim does this hotel have","How manny swimming bath does this hotel have","How manny swimming bath does this resort have","How manny swimming pool does this motel have","How manny swimming bath does this motel have","Does this resort have a swimming pool","Does this hotel have a natatoruim","Does this resort have a natatoruim","Does this hotel have a swimming bath","Does this hotel have a natatoruim in it","Does this resort have a natatoruim in it","Is there a natatoruim in this hotel","Is there a swimming bath in this resort","Is there a swimming pool in this motel"],
+        "responses": ["Yes,this hotel has 1 swimming pool."],
+        "name" : "Labranda"
+      },
+      {"tag": "pool",
+    "patterns": ["How manny swimming pool does this hotel have?","Does this hotel have a swimming pool ?","Does this hotel have a pool ? ","Is there a pool in this hotel? ","how many pools in this hotel?","does this hotel have a swimming pool in it ?","How manny natatoruim does this hotel have","How manny swimming bath does this hotel have","How manny swimming bath does this resort have","How manny swimming pool does this motel have","How manny swimming bath does this motel have","Does this resort have a swimming pool","Does this hotel have a natatoruim","Does this resort have a natatoruim","Does this hotel have a swimming bath","Does this hotel have a natatoruim in it","Does this resort have a natatoruim in it","Is there a natatoruim in this hotel","Is there a swimming bath in this resort","Is there a swimming pool in this motel"],
+        "responses": ["Yes,this hotel has 2 swimming pools."],
+        "name" : "berostar"
+      },
+     {"tag": "pool",
+    "patterns": ["How manny swimming pool does this hotel have?","Does this hotel have a swimming pool ?","Does this hotel have a pool ? ","Is there a pool in this hotel? ","how many pools in this hotel?","does this hotel have a swimming pool in it ?","How manny natatoruim does this hotel have","How manny swimming bath does this hotel have","How manny swimming bath does this resort have","How manny swimming pool does this motel have","How manny swimming bath does this motel have","Does this resort have a swimming pool","Does this hotel have a natatoruim","Does this resort have a natatoruim","Does this hotel have a swimming bath","Does this hotel have a natatoruim in it","Does this resort have a natatoruim in it","Is there a natatoruim in this hotel","Is there a swimming bath in this resort","Is there a swimming pool in this motel"],
+        "responses": ["Yes,this hotel has 2 swimming pools."],
+        "name" : "Oberoi"
+      },
+     {"tag": "pool",
+    "patterns": ["How manny swimming pool does this hotel have?","Does this hotel have a swimming pool ?","Does this hotel have a pool ? ","Is there a pool in this hotel? ","how many pools in this hotel?","does this hotel have a swimming pool in it ?","How manny natatoruim does this hotel have","How manny swimming bath does this hotel have","How manny swimming bath does this resort have","How manny swimming pool does this motel have","How manny swimming bath does this motel have","Does this resort have a swimming pool","Does this hotel have a natatoruim","Does this resort have a natatoruim","Does this hotel have a swimming bath","Does this hotel have a natatoruim in it","Does this resort have a natatoruim in it","Is there a natatoruim in this hotel","Is there a swimming bath in this resort","Is there a swimming pool in this motel"],
+        "responses": ["Yes,this hotel has 2 swimming pools."],
+        "name" : "sofitel"
+      },
+     {"tag": "pool",
+    "patterns": ["How manny swimming pool does this hotel have?","Does this hotel have a swimming pool ?","Does this hotel have a pool ? ","Is there a pool in this hotel? ","how many pools in this hotel?","does this hotel have a swimming pool in it ?","How manny natatoruim does this hotel have","How manny swimming bath does this hotel have","How manny swimming bath does this resort have","How manny swimming pool does this motel have","How manny swimming bath does this motel have","Does this resort have a swimming pool","Does this hotel have a natatoruim","Does this resort have a natatoruim","Does this hotel have a swimming bath","Does this hotel have a natatoruim in it","Does this resort have a natatoruim in it","Is there a natatoruim in this hotel","Is there a swimming bath in this resort","Is there a swimming pool in this motel"],
+        "responses": ["Yes,this hotel has 2 swimming pools."],
+        "name" : "Resort"
+      },
+    {"tag": "hotel_restaurant",
+        "patterns": ["Does this hotel have a restaurant ?","Is there a restaurant in this hotel? ","Does this hotel have a restaurant in it ?","is there a place to eat in this hotel?","Can i find food in this hotel?","is there food in this hotel?","Does this motel have a restaurant","Does this motel have a place to eat","Does this motel have a eating place","Does this resort have a restaurant in it","Does this motel have a restaurant in it","Does this resort have a place to eat in it","Does this motel have a place to eat in it","Does this resort have a eating place in it","Is there a restaurant in this hotel","Is there a place to eat in this hotel","Is there a place to eat in this resort","Is there a eating place in this resort","Is there a restaurant in this motel","Can i find a place to eat in this hotel","Can i find a eating place in this hotel","Can i find a restaurant in this resort","Can i find a eating place in this resort","Can i find a place to eat in this motel","Can i find a eating place in this motel"],
+        "responses": ["Yes,this hotel have a restaurant."],
+        "name" : "almas"
+      },
+    {"tag": "hotel_restaurant",
+        "patterns": ["Does this hotel have a restaurant ?","Is there a restaurant in this hotel? ","Does this hotel have a restaurant in it ?","is there a place to eat in this hotel?","Can i find food in this hotel?","is there food in this hotel?","Does this motel have a restaurant","Does this motel have a place to eat","Does this motel have a eating place","Does this resort have a restaurant in it","Does this motel have a restaurant in it","Does this resort have a place to eat in it","Does this motel have a place to eat in it","Does this resort have a eating place in it","Is there a restaurant in this hotel","Is there a place to eat in this hotel","Is there a place to eat in this resort","Is there a eating place in this resort","Is there a restaurant in this motel","Can i find a place to eat in this hotel","Can i find a eating place in this hotel","Can i find a restaurant in this resort","Can i find a eating place in this resort","Can i find a place to eat in this motel","Can i find a eating place in this motel"],
+        "responses": ["Yes,this hotel have a restaurant."],
+        "name" : "Moroccan"
+      },
+
+    {"tag": "hotel_restaurant",
+        "patterns": ["Does this hotel have a restaurant ?","Is there a restaurant in this hotel? ","Does this hotel have a restaurant in it ?","is there a place to eat in this hotel?","Can i find food in this hotel?","is there food in this hotel?","Does this motel have a restaurant","Does this motel have a place to eat","Does this motel have a eating place","Does this resort have a restaurant in it","Does this motel have a restaurant in it","Does this resort have a place to eat in it","Does this motel have a place to eat in it","Does this resort have a eating place in it","Is there a restaurant in this hotel","Is there a place to eat in this hotel","Is there a place to eat in this resort","Is there a eating place in this resort","Is there a restaurant in this motel","Can i find a place to eat in this hotel","Can i find a eating place in this hotel","Can i find a restaurant in this resort","Can i find a eating place in this resort","Can i find a place to eat in this motel","Can i find a eating place in this motel"],
+        "responses": ["Yes,this hotel have a restaurant."],
+        "name" : "Racine"
+      },
+    {"tag": "hotel_restaurant",
+        "patterns": ["Does this hotel have a restaurant ?","Is there a restaurant in this hotel? ","Does this hotel have a restaurant in it ?","is there a place to eat in this hotel?","Can i find food in this hotel?","is there food in this hotel?","Does this motel have a restaurant","Does this motel have a place to eat","Does this motel have a eating place","Does this resort have a restaurant in it","Does this motel have a restaurant in it","Does this resort have a place to eat in it","Does this motel have a place to eat in it","Does this resort have a eating place in it","Is there a restaurant in this hotel","Is there a place to eat in this hotel","Is there a place to eat in this resort","Is there a eating place in this resort","Is there a restaurant in this motel","Can i find a place to eat in this hotel","Can i find a eating place in this hotel","Can i find a restaurant in this resort","Can i find a eating place in this resort","Can i find a place to eat in this motel","Can i find a eating place in this motel"],
+        "responses": ["Yes,this hotel have a restaurant."],
+        "name" : "ibis"
+      },
+    {"tag": "hotel_restaurant",
+        "patterns": ["Does this hotel have a restaurant ?","Is there a restaurant in this hotel? ","Does this hotel have a restaurant in it ?","is there a place to eat in this hotel?","Can i find food in this hotel?","is there food in this hotel?","Does this motel have a restaurant","Does this motel have a place to eat","Does this motel have a eating place","Does this resort have a restaurant in it","Does this motel have a restaurant in it","Does this resort have a place to eat in it","Does this motel have a place to eat in it","Does this resort have a eating place in it","Is there a restaurant in this hotel","Is there a place to eat in this hotel","Is there a place to eat in this resort","Is there a eating place in this resort","Is there a restaurant in this motel","Can i find a place to eat in this hotel","Can i find a eating place in this hotel","Can i find a restaurant in this resort","Can i find a eating place in this resort","Can i find a place to eat in this motel","Can i find a eating place in this motel"],
+        "responses": ["No,this hotel does not have a restaurant."],
+        "name" : "Fairmont"
+      },
+    {"tag": "hotel_restaurant",
+        "patterns": ["Does this hotel have a restaurant ?","Is there a restaurant in this hotel? ","Does this hotel have a restaurant in it ?","is there a place to eat in this hotel?","Can i find food in this hotel?","is there food in this hotel?","Does this motel have a restaurant","Does this motel have a place to eat","Does this motel have a eating place","Does this resort have a restaurant in it","Does this motel have a restaurant in it","Does this resort have a place to eat in it","Does this motel have a place to eat in it","Does this resort have a eating place in it","Is there a restaurant in this hotel","Is there a place to eat in this hotel","Is there a place to eat in this resort","Is there a eating place in this resort","Is there a restaurant in this motel","Can i find a place to eat in this hotel","Can i find a eating place in this hotel","Can i find a restaurant in this resort","Can i find a eating place in this resort","Can i find a place to eat in this motel","Can i find a eating place in this motel"],
+        "responses": ["Yes,this hotel have a restaurant."],
+        "name" : "sofitel"
+      },
+    {"tag": "hotel_restaurant",
+        "patterns": ["Does this hotel have a restaurant ?","Is there a restaurant in this hotel? ","Does this hotel have a restaurant in it ?","is there a place to eat in this hotel?","Can i find food in this hotel?","is there food in this hotel?","Does this motel have a restaurant","Does this motel have a place to eat","Does this motel have a eating place","Does this resort have a restaurant in it","Does this motel have a restaurant in it","Does this resort have a place to eat in it","Does this motel have a place to eat in it","Does this resort have a eating place in it","Is there a restaurant in this hotel","Is there a place to eat in this hotel","Is there a place to eat in this resort","Is there a eating place in this resort","Is there a restaurant in this motel","Can i find a place to eat in this hotel","Can i find a eating place in this hotel","Can i find a restaurant in this resort","Can i find a eating place in this resort","Can i find a place to eat in this motel","Can i find a eating place in this motel"],
+        "responses": ["Yes,this hotel have a restaurant."],
+        "name" : "berostar"
+      },
+    {"tag": "hotel_restaurant",
+        "patterns": ["Does this hotel have a restaurant ?","Is there a restaurant in this hotel? ","Does this hotel have a restaurant in it ?","is there a place to eat in this hotel?","Can i find food in this hotel?","is there food in this hotel?","Does this motel have a restaurant","Does this motel have a place to eat","Does this motel have a eating place","Does this resort have a restaurant in it","Does this motel have a restaurant in it","Does this resort have a place to eat in it","Does this motel have a place to eat in it","Does this resort have a eating place in it","Is there a restaurant in this hotel","Is there a place to eat in this hotel","Is there a place to eat in this resort","Is there a eating place in this resort","Is there a restaurant in this motel","Can i find a place to eat in this hotel","Can i find a eating place in this hotel","Can i find a restaurant in this resort","Can i find a eating place in this resort","Can i find a place to eat in this motel","Can i find a eating place in this motel"],
+        "responses": ["Yes,this hotel have a restaurant."],
+        "name" : "Atlas"
+      },
+    {"tag": "hotel_restaurant",
+        "patterns": ["Does this hotel have a restaurant ?","Is there a restaurant in this hotel? ","Does this hotel have a restaurant in it ?","is there a place to eat in this hotel?","Can i find food in this hotel?","is there food in this hotel?","Does this motel have a restaurant","Does this motel have a place to eat","Does this motel have a eating place","Does this resort have a restaurant in it","Does this motel have a restaurant in it","Does this resort have a place to eat in it","Does this motel have a place to eat in it","Does this resort have a eating place in it","Is there a restaurant in this hotel","Is there a place to eat in this hotel","Is there a place to eat in this resort","Is there a eating place in this resort","Is there a restaurant in this motel","Can i find a place to eat in this hotel","Can i find a eating place in this hotel","Can i find a restaurant in this resort","Can i find a eating place in this resort","Can i find a place to eat in this motel","Can i find a eating place in this motel"],
+        "responses": ["Yes,this hotel have a restaurant."],
+        "name" : "golf"
+      },
+    {"tag": "hotel_restaurant",
+        "patterns": ["Does this hotel have a restaurant ?","Is there a restaurant in this hotel? ","Does this hotel have a restaurant in it ?","is there a place to eat in this hotel?","Can i find food in this hotel?","is there food in this hotel?","Does this motel have a restaurant","Does this motel have a place to eat","Does this motel have a eating place","Does this resort have a restaurant in it","Does this motel have a restaurant in it","Does this resort have a place to eat in it","Does this motel have a place to eat in it","Does this resort have a eating place in it","Is there a restaurant in this hotel","Is there a place to eat in this hotel","Is there a place to eat in this resort","Is there a eating place in this resort","Is there a restaurant in this motel","Can i find a place to eat in this hotel","Can i find a eating place in this hotel","Can i find a restaurant in this resort","Can i find a eating place in this resort","Can i find a place to eat in this motel","Can i find a eating place in this motel"],
+        "responses": ["No,this hotel does not have a restaurant."],
+        "name" : "Flashback"
+      },
+    {"tag": "hotel_restaurant",
+        "patterns": ["Does this hotel have a restaurant ?","Is there a restaurant in this hotel? ","Does this hotel have a restaurant in it ?","is there a place to eat in this hotel?","Can i find food in this hotel?","is there food in this hotel?","Does this motel have a restaurant","Does this motel have a place to eat","Does this motel have a eating place","Does this resort have a restaurant in it","Does this motel have a restaurant in it","Does this resort have a place to eat in it","Does this motel have a place to eat in it","Does this resort have a eating place in it","Is there a restaurant in this hotel","Is there a place to eat in this hotel","Is there a place to eat in this resort","Is there a eating place in this resort","Is there a restaurant in this motel","Can i find a place to eat in this hotel","Can i find a eating place in this hotel","Can i find a restaurant in this resort","Can i find a eating place in this resort","Can i find a place to eat in this motel","Can i find a eating place in this motel"],
+        "responses": ["Yes,this hotel have a restaurant."],
+        "name" : "Labranda"
+      },
+    {"tag": "hotel_restaurant",
+        "patterns": ["Does this hotel have a restaurant ?","Is there a restaurant in this hotel? ","Does this hotel have a restaurant in it ?","is there a place to eat in this hotel?","Can i find food in this hotel?","is there food in this hotel?","Does this motel have a restaurant","Does this motel have a place to eat","Does this motel have a eating place","Does this resort have a restaurant in it","Does this motel have a restaurant in it","Does this resort have a place to eat in it","Does this motel have a place to eat in it","Does this resort have a eating place in it","Is there a restaurant in this hotel","Is there a place to eat in this hotel","Is there a place to eat in this resort","Is there a eating place in this resort","Is there a restaurant in this motel","Can i find a place to eat in this hotel","Can i find a eating place in this hotel","Can i find a restaurant in this resort","Can i find a eating place in this resort","Can i find a place to eat in this motel","Can i find a eating place in this motel"],
+        "responses": ["Yes,this hotel have a restaurant."],
+        "name" : "Oberoi"
+      },
+    {"tag": "hotel_restaurant",
+        "patterns": ["Does this hotel have a restaurant ?","Is there a restaurant in this hotel? ","Does this hotel have a restaurant in it ?","is there a place to eat in this hotel?","Can i find food in this hotel?","is there food in this hotel?","Does this motel have a restaurant","Does this motel have a place to eat","Does this motel have a eating place","Does this resort have a restaurant in it","Does this motel have a restaurant in it","Does this resort have a place to eat in it","Does this motel have a place to eat in it","Does this resort have a eating place in it","Is there a restaurant in this hotel","Is there a place to eat in this hotel","Is there a place to eat in this resort","Is there a eating place in this resort","Is there a restaurant in this motel","Can i find a place to eat in this hotel","Can i find a eating place in this hotel","Can i find a restaurant in this resort","Can i find a eating place in this resort","Can i find a place to eat in this motel","Can i find a eating place in this motel"],
+        "responses": ["No,this hotel does not have a restaurant."],
+        "name" : "Préstigia"
+      },
+    {"tag": "hotel_restaurant",
+        "patterns": ["Does this hotel have a restaurant ?","Is there a restaurant in this hotel? ","Does this hotel have a restaurant in it ?","is there a place to eat in this hotel?","Can i find food in this hotel?","is there food in this hotel?","Does this motel have a restaurant","Does this motel have a place to eat","Does this motel have a eating place","Does this resort have a restaurant in it","Does this motel have a restaurant in it","Does this resort have a place to eat in it","Does this motel have a place to eat in it","Does this resort have a eating place in it","Is there a restaurant in this hotel","Is there a place to eat in this hotel","Is there a place to eat in this resort","Is there a eating place in this resort","Is there a restaurant in this motel","Can i find a place to eat in this hotel","Can i find a eating place in this hotel","Can i find a restaurant in this resort","Can i find a eating place in this resort","Can i find a place to eat in this motel","Can i find a eating place in this motel"],
+        "responses": ["Yes,this hotel have a restaurant."],
+        "name" : "Resort"
+      },
+    {"tag": "airport_shuttle",
+        "patterns": ["Does this hotel have an airport shuttle service ?","Is there an airport shuttle service in this hotel? ","Can someone pick me from the airport to the hotel ?","Does this resort have an airport shuttle service ?","Does this motel have an airport shuttle service ?","is there a way to go  from the airport to the hotel ?","Can someone pick me from the airport to the resort ?","Can someone pick me from the airport to the motel ?"],
+        "responses": ["Yes,this hotel have an airport shuttle service"],
+        "name" : "almas"
+      },
+     {"tag": "airport_shuttle",
+        "patterns": ["Does this hotel have an airport shuttle service ?","Is there an airport shuttle service in this hotel? ","Can someone pick me from the airport to the hotel ?","Does this resort have an airport shuttle service ?","Does this motel have an airport shuttle service ?","is there a way to go  from the airport to the hotel ?","Can someone pick me from the airport to the resort ?","Can someone pick me from the airport to the motel ?"],
+        "responses": ["No,this hotel does not have an airport shuttle service"],
+        "name" : "Moroccan"
+      },
+    {"tag": "airport_shuttle",
+        "patterns": ["Does this hotel have an airport shuttle service ?","Is there an airport shuttle service in this hotel? ","Can someone pick me from the airport to the hotel ?","Does this resort have an airport shuttle service ?","Does this motel have an airport shuttle service ?","is there a way to go  from the airport to the hotel ?","Can someone pick me from the airport to the resort ?","Can someone pick me from the airport to the motel ?"],
+        "responses": ["Yes,this hotel have an airport shuttle service"],
+        "name" : "Racine"
+      },
+    {"tag": "airport_shuttle",
+        "patterns": ["Does this hotel have an airport shuttle service ?","Is there an airport shuttle service in this hotel? ","Can someone pick me from the airport to the hotel ?","Does this resort have an airport shuttle service ?","Does this motel have an airport shuttle service ?","is there a way to go  from the airport to the hotel ?","Can someone pick me from the airport to the resort ?","Can someone pick me from the airport to the motel ?"],
+        "responses": ["Yes,this hotel have an airport shuttle service"],
+        "name" : "Fairmont"
+      },
+    {"tag": "airport_shuttle",
+        "patterns": ["Does this hotel have an airport shuttle service ?","Is there an airport shuttle service in this hotel? ","Can someone pick me from the airport to the hotel ?","Does this resort have an airport shuttle service ?","Does this motel have an airport shuttle service ?","is there a way to go  from the airport to the hotel ?","Can someone pick me from the airport to the resort ?","Can someone pick me from the airport to the motel ?"],
+        "responses": ["Yes,this hotel have an airport shuttle service"],
+        "name" : "Resort"
+      },
+      {"tag": "airport_shuttle",
+        "patterns": ["Does this hotel have an airport shuttle service ?","Is there an airport shuttle service in this hotel? ","Can someone pick me from the airport to the hotel ?","Does this resort have an airport shuttle service ?","Does this motel have an airport shuttle service ?","is there a way to go  from the airport to the hotel ?","Can someone pick me from the airport to the resort ?","Can someone pick me from the airport to the motel ?"],
+        "responses": ["No,this hotel does not have an airport shuttle service"],
+        "name" : "Préstigia"
+      },
+
+     {"tag": "airport_shuttle",
+        "patterns": ["Does this hotel have an airport shuttle service ?","Is there an airport shuttle service in this hotel? ","Can someone pick me from the airport to the hotel ?","Does this resort have an airport shuttle service ?","Does this motel have an airport shuttle service ?","is there a way to go  from the airport to the hotel ?","Can someone pick me from the airport to the resort ?","Can someone pick me from the airport to the motel ?"],
+        "responses": ["No,this hotel does not have an airport shuttle service"],
+        "name" : "berostar"
+      },
+
+      {"tag": "airport_shuttle",
+        "patterns": ["Does this hotel have an airport shuttle service ?","Is there an airport shuttle service in this hotel? ","Can someone pick me from the airport to the hotel ?","Does this resort have an airport shuttle service ?","Does this motel have an airport shuttle service ?","is there a way to go  from the airport to the hotel ?","Can someone pick me from the airport to the resort ?","Can someone pick me from the airport to the motel ?"],
+        "responses": ["Yes,this hotel have an airport shuttle service"],
+        "name" : "Oberoi"
+      },
+      {"tag": "airport_shuttle",
+        "patterns": ["Does this hotel have an airport shuttle service ?","Is there an airport shuttle service in this hotel? ","Can someone pick me from the airport to the hotel ?","Does this resort have an airport shuttle service ?","Does this motel have an airport shuttle service ?","is there a way to go  from the airport to the hotel ?","Can someone pick me from the airport to the resort ?","Can someone pick me from the airport to the motel ?"],
+        "responses": ["No,this hotel does not have an airport shuttle service"],
+        "name" : "Labranda"
+      },
+      {"tag": "airport_shuttle",
+        "patterns": ["Does this hotel have an airport shuttle service ?","Is there an airport shuttle service in this hotel? ","Can someone pick me from the airport to the hotel ?","Does this resort have an airport shuttle service ?","Does this motel have an airport shuttle service ?","is there a way to go  from the airport to the hotel ?","Can someone pick me from the airport to the resort ?","Can someone pick me from the airport to the motel ?"],
+        "responses": ["No,this hotel does not have an airport shuttle service"],
+        "name" : "Flashback"
+      },
+      {"tag": "airport_shuttle",
+        "patterns": ["Does this hotel have an airport shuttle service ?","Is there an airport shuttle service in this hotel? ","Can someone pick me from the airport to the hotel ?","Does this resort have an airport shuttle service ?","Does this motel have an airport shuttle service ?","is there a way to go  from the airport to the hotel ?","Can someone pick me from the airport to the resort ?","Can someone pick me from the airport to the motel ?"],
+        "responses": ["No,this hotel does not have an airport shuttle service"],
+        "name" : "golf"
+      },
+      {"tag": "airport_shuttle",
+        "patterns": ["Does this hotel have an airport shuttle service ?","Is there an airport shuttle service in this hotel? ","Can someone pick me from the airport to the hotel ?","Does this resort have an airport shuttle service ?","Does this motel have an airport shuttle service ?","is there a way to go  from the airport to the hotel ?","Can someone pick me from the airport to the resort ?","Can someone pick me from the airport to the motel ?"],
+        "responses": ["No,this hotel does not have an airport shuttle service"],
+        "name" : "Atlas"
+      },
+      {"tag": "airport_shuttle",
+        "patterns": ["Does this hotel have an airport shuttle service ?","Is there an airport shuttle service in this hotel? ","Can someone pick me from the airport to the hotel ?","Does this resort have an airport shuttle service ?","Does this motel have an airport shuttle service ?","is there a way to go  from the airport to the hotel ?","Can someone pick me from the airport to the resort ?","Can someone pick me from the airport to the motel ?"],
+        "responses": ["Yes,this hotel have an airport shuttle service"],
+        "name" : "sofitel"
+      },
+
+    {"tag": "list_places",
+        "patterns": ["Marrakech attractions","Marrakech attraction sites","Marrakech attractions places","what can i do in marrakech","what to do in marrakech","help me visit marrakech","what activities can i do in marrakech","what can i visit here","what can i visit in marrakech","what can i visit in this city","what is here to see","what can i see in marrakech","what are the best places in marrakech","the best things to do in marrakech","top-rated tourist attractions in marrakech","places to visit in marrakech","places to go in marrakech","what are the best tourist attractions in marrakech","show me places in marrakech","give me a list of tourist attractions","what can i do in this city","what to do in this city","help me visit this city","what activities can i do in this city","what can i visit here","what can i visit in this city","what can i visit in this city","what is here to see","what can i see in this city","what are the famous places in this city","the best things to do in this city","top-rated tourist attractions in this city","places to visit in this city","places to go in this city","what are the best tourist attractions in this city"],
+        "responses": [["Atlas Mountains","Jemaa el-Fna","Koutoubia Mosque ","Palmeraie (Palm Grove)","Majorelle Garden","Ourika Valley","Bahia Palace","Marrakech Medina","Ouzoud Waterfalls","Mt. Toubkal","Tizi-n'Tichka Pass","Kik Plateau","Menara Gardens","El-Badi Palace","Takerkoust Lake ","Oasiria Marrakech (Oasiria Water Park)","Oukaimeden","Moroccan hammam","Marrakech Souk","Dar el-Bacha Street","Tiskiwin Museum","Marrakesh Museum","Dar Si Said (Museum of Moroccan Arts)","Berber Museum"]],
+        "name" : ""
+      },
+     {"tag": "list_places_natural",
+        "patterns": ["Top marrakech natural places to visit","natural oasis in marrakech","what are the famous natural places in marrakech","what are the most natural places in marrakech","what are the best natural places in marrakech","The top historical Gardens In Marrakech","Green spaces in Marrakech","Top this city natural places to visit","natural oasis in this city","what are the famous natural places in this city","The top historical Gardens In this city","Green spaces in this city","Green view in Marrakech","cool natural places to visit","natural places to visit","natural places to go to","best natural places to go to","i want to go to a natural place","i want to vist a natural place","help me find a natural place to go to","help me find a natural place to visit thanks","please help me find a natural place to visit thanks","hello give me a list of natural places to visit"],
+        "responses": [["Ourika Valley","Takerkoust Lake ","Oukaimeden"]],
+        "name" : ""
+      },
+
+     {"tag": "list_places_museum",
+        "patterns": ["What are the best museum in marrakech ?", "Show me a list of museum in marrakech ?", "What are the famous museum in marrakech ?", "How many museum in marrakech ?","show me a liste of museum","list of museum","hello plz find the best museum near marrakech","pls help me find museum in the area of marrakech","i'm looking for the best museum near marrakech thanks","hello please i'm looking for historical museum near marrakech thanks","the best museum in the area of marrakech","museum in the area of marrakech","the famous museum  located at marrakech","historical museum near marrakech","plz help me find historical museum in the area of marrakech thank you","the best museum located at marrakech","hi please i'm looking for museum near marrakech thanks","hello plz help me find museum located at marrakech thank you","museum near marrakech","hey plz find historical museum located at marrakech thank you","hey please help me find the famous located at marrakech thank you","can you show me list of museum here in marrakech","What are the best museum in this city","let me see a list of museum in this city","can i have a list of museum here in marrakech","what are the famous museum in this city","What are the best museum in this city ?", "Show me a list of museum in this city ?", "What are the famous museum in this city ?","How many museum in this city ?","hello plz find the best museum near this city"],
+        "responses": [["Tiskiwin Museum","Marrakesh Museum","Dar Si Said (Museum of Moroccan Arts)","Berber Museum"]],
+        "name" : ""
+      },
+     {"tag": "downtown_places",
+       "patterns": ["What are the best places near downtown ?","Show me a list of places near downtown ?","What are the famous places near downtown ?","show me a liste of places close to midtown","list of places near center","hello plz find the best places near midtown","pls help me find good spots in the area of downtown","i'm looking for the best places near downtown thanks","hello please i'm looking for places near midtown thanks","the best places near downtown","the famous places  located close to downtown","places near downtown","plz help me find places by midtown","the best places located close to downtown","hi please i'm looking for places near downtown thanks","hello plz help me find spot located close to downtown thank you","hey plz find places located close to downtown thank you","hey please help me find the famous places located close to downtown thank you","can you show me list of places here near downtown","can i have a list of places here near downtown","can you show me list of places here near downtown","historical places close to downtown","historical places near downtown" ],
+       "responses": [["Koutoubia Mosque" , "Jemaa el-Fna","Bahia Palace","Menara Gardens"]],
+       "name" : ""
+      },
+     {"tag": "list_places_souk",
+       "patterns": ["hey plz help me find bazar here in marrakech","places where i can pick up antique here in marrakech","i'm looking for bazar here in marrakech thank you","give me the places that sell relic in this city","hi please i'm looking for bazar here in marrakech thank you","where can i get gift in this city","hey pls find bazar here in marrakech thanks","where can i purchase relic in this city pls thank you","can you give me the places that sell relic here in marrakech","give me the places that sell gift in this city","places where i can purchase gift here in marrakech","where can i pick up antique in this city pls","places where i can pick up antique","hey please help me find bazar here in marrakech","where can i get antique here in marrakech please thank you","where can i purchase relic here in marrakech please","can you show me the places that sell antique here in marrakech","hey i'm looking for bazar in this city thanks","where can i get antique in this city please","plz bazar here in marrakech thank you","where can i get relic here in marrakech plz thank you","let me see the places that sell antique","hi please i'm looking for bazar in this city thank you","show me the places that sell relic","hello help me find bazar here in marrakech thanks","places where i can get antique"],
+       "responses": [["Jemaa el-Fna", "Marrakech Medina"]],
+       "name" : ""
+      },
+
+      {"tag": "Tiskiwin",
+       "patterns": ["Tiskiwin Museum","Tiskiwin Museum","Tiskiwin Museum","Tiskiwin Museum","Tiskiwin Museum","Tiskiwin Museum"],
+       "responses": ["what informations you need about Tiskiwin Museum"],
+      "name" : "Tiskiwin"
+      },
+
+     {"tag": "location",
+       "patterns": ["where can i find this museum  ?","What about the location of this museum  ?","can you send me the address of this museum","where is this museum?","the location of this building","the position of this building","i'm looking for this museum"," help me find this museum","can you send me the address of this building","where is this building","can you give me the location of this museum","can you tell me the location of this museum","can you give me the position of this museum","can you show me the place of this museum","can you tell me the place of this museum","can you give me the location of this place","can you show me the position of this place","can you show me where this historical place","can you give me the location of this building","can you tell me the location of this building","can you show me the position of this building","can you give me the place of this building","the location of this museum","the place of this museum","the location of this historical place","where is this place"],
+       "responses": ["<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13589.680454934638!2d-7.9842413!3d31.6223458!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3a682ff5a3512479!2sMus%C3%A9e%20Tiskiwin%20Marrakech!5e0!3m2!1sfr!2sma!4v1625144902683!5m2!1sfr!2sma' width='100%' height='100%' style='border:0;' allowfullscreen='' loading='lazy'></iframe>"],
+      "name" : "Tiskiwin"
+      },
+     {"tag": "horraire",
+       "patterns": ["what is the opening hours of this museum?", "When does this museum open?","What timing does this museum open at?","At what timing does this museum open ?","When is this museum open?","When can i come to this museum?","what is the opening hours of this building","what are the opening hours?","what are the opening hours of this historical place","when is this building open","at what timing does this place open","at what timing does this building open","at what timing does this historical place open","When can i come to this museum","When can i come to this building","When can i come to this historical place","time schedule of this museum","time schedule of this building","time schedule of this historical place","give me the time schedule of this museum","show me the time schedule of this museum","give me the time schedule of this building","show me the time schedule of this building","the museum Will be open all day?","at what time does this museum open"],
+       "responses": ["The Tiskiwin Museum is open daily from 9:00-12:30,14:30-17:00"],
+      "name" : "Tiskiwin"
+      },
+
+     {"tag": "activite",
+        "patterns": ["what can i see during my visit to this place","what can i see in this museum","what can i see during my visit to this museum","What will I see during my visit?","What can I find in the permanent room?","What activities are offered to visitors","What activities are available to visitors","what does this museum have","whats special about this museum","what can i see in this historical place","what can i see during my visit to this historical place","what does this historical place have","whats special about this historical place"],
+       "responses": ["Housed in a beautifully restored riad (a structure built around a courtyard),  the Tiskiwin Museum fascinates visitors. Filled with North African art, crafts, and artifacts, the Tiskiwin House collection immerses visitors in the vibrant cultural history of the region."],
+      "name" : "Tiskiwin"
+      },
+    {"tag": "price",
+        "patterns": ["how much does it cost the enter to the museum ?","What are the admission fees to the Museum?","How much does it cost to enter the museum?","How much does admission to the museum cost?","how much cost the visit in this museum ?","what the price for a visit in this museum ?","how much is it?","how much does it run for? ","how much does it cost","tell me about the admission fees to the Museum?","what is the entring price to this historical place","How much does it cost to enter this museum?","How much does it cost to enter this building?"," what is the price range in this museum?","how much to get in?","how much can i pay to enter this place","how much can i pay to enter the museum","how much does a tour cost?"],
+       "responses": ["General admission: 50 MAD (5.80 US$)."],
+      "name" : "Tiskiwin"
+      },
+
+     {"tag": "Marrakesh",
+       "patterns": ["Marrakesh Museum","Marrakesh Museum","Marrakesh Museum","Marrakesh Museum","Marrakesh Museum","Marrakesh Museum"],
+       "responses": ["what informations you need about Marrakesh Museum"],
+      "name" : "Marrakesh"
+      },
+
+     {"tag": "location",
+       "patterns": ["where can i find this museum  ?","What about the location of this museum  ?","can you send me the address of this museum","where is this museum?","the location of this building","the position of this building","i'm looking for this museum"," help me find this museum","can you send me the address of this building","where is this building","can you give me the location of this museum","can you tell me the location of this museum","can you give me the position of this museum","can you show me the place of this museum","can you tell me the place of this museum","can you give me the location of this place","can you show me the position of this place","can you show me where this historical place","can you give me the location of this building","can you tell me the location of this building","can you show me the position of this building","can you give me the place of this building","the location of this museum","the place of this museum","the location of this historical place","where is this place"],
+       "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13588.204142260427!2d-8.002533!3d31.632453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x40727826b773d61b!2smarrakesh%20museum!5e0!3m2!1sfr!2sma!4v1625150273272!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+      "name" : "Marrakesh"
+      },
+     {"tag": "horraire",
+        "patterns": [" What are the opening hours of this Museum?","the museum Will be open all day?","what time this museum open","what time this museum close","when i can visit this museum","what the best time for visiting this museum","the work schedule of museum"],
+       "responses": ["Open every day: from 09h00 to 12h00 and from 15h00 to 18h30."],
+      "name" : "Marrakesh"
+      },
+
+     {"tag": "activite",
+        "patterns": ["what i can see during my visit to this place","what i can see during my visit in this museum","what i can see during my visit in this museum","What will I see during my visit?","What can I find in the permanent room?","What activities are offered to visitors"],
+       "responses": ["The Marrakech Museum is located in a former palace where Mehdi Mnebhi, former defense minister of Sultan Moulay Abdelaziz, resided. The palace dates from the late nineteenth century."],
+      "name" : "Marrakesh"
+      },
+
+    {"tag": "price",
+        "patterns": ["What are the admission fees to the Museum?","How much does it cost to enter the museum?","How much does admission to the museum cost?","how much cost the visit in this museum ?","what the price for a visite in this museum ?"],
+       "responses": ["General admission: 70 MAD (7.80 US$)."],
+      "name" : "Marrakesh"
+      },
+
+
+    {"tag": "Said",
+       "patterns": ["Dar Si Said (Museum of Moroccan Arts)","Dar Si Said (Museum of Moroccan Arts)","Dar Si Said (Museum of Moroccan Arts)","Dar Si Said (Museum of Moroccan Arts)","Dar Si Said (Museum of Moroccan Arts)","Dar Si Said (Museum of Moroccan Arts)","Dar Si Said (Museum of Moroccan Arts)"],
+       "responses": ["what informations you need about Dar Si Said (Museum of Moroccan Arts)"],
+      "name" : "Said"
+      },
+
+     {"tag": "location",
+       "patterns": ["where can i find this museum  ?","What about the location of this museum  ?","can you send me the address of this museum","where is this museum?","the location of this building","the position of this building","i'm looking for this museum"," help me find this museum","can you send me the address of this building","where is this building","can you give me the location of this museum","can you tell me the location of this museum","can you give me the position of this museum","can you show me the place of this museum","can you tell me the place of this museum","can you give me the location of this place","can you show me the position of this place","can you show me where this historical place","can you give me the location of this building","can you tell me the location of this building","can you show me the position of this building","can you give me the place of this building","the location of this museum","the place of this museum","the location of this historical place","where is this place"],
+       "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13589.534174660503!2d-7.9840286!3d31.6233474!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdf38e6a33246599e!2sMus%C3%A9e%20Dar%20Si%20Said!5e0!3m2!1sfr!2sma!4v1625152094592!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+       "name" : "Said"
+      },
+     {"tag": "horraire",
+        "patterns": [" What are the opening hours of this Museum?","the museum Will be open all day?","what time this museum open","what time this museum close","when i can visit this museum","what the best time for visiting this museum","the work schedule of museum"],
+       "responses": ["Open every day: from 10h00 to 18h00 except Tuesday."],
+      "name" : "Said"
+      },
+
+     {"tag": "activite",
+        "patterns": ["what i can see during my visit to this place","what i can see during my visit in this museum","what i can see during my visit in this museum","What will I see during my visit?","What can I find in the permanent room?","What activities are offered to visitors"],
+       "responses": ["The Dar Si Said Museum is a museum located in Marrakech, entirely dedicated to Moroccan wood crafts."],
+      "name" : "Said"
+      },
+
+    {"tag": "price",
+        "patterns": ["What are the admission fees to the Museum?","How much does it cost to enter the museum?","How much does admission to the museum cost?","how much cost the visit in this museum ?","what the price for a visite in this museum ?"],
+       "responses": ["Adultes : 70 dh (7,90 US$)."],
+      "name" : "Said"
+      },
+
+    {"tag": "Berber",
+       "patterns": ["Berber Museum","Berber Museum","Berber Museum","Berber Museum","Berber Museum","Berber Museum"],
+       "responses": ["what informations you need about Berber Museum"],
+      "name" : "Berber"
+      },
+
+     {"tag": "location",
+       "patterns": ["where can i find this museum  ?","What about the location of this museum  ?","can you send me the address of this museum","where is this museum?","the location of this building","the position of this building","i'm looking for this museum"," help me find this museum","can you send me the address of this building","where is this building","can you give me the location of this museum","can you tell me the location of this museum","can you give me the position of this museum","can you show me the place of this museum","can you tell me the place of this museum","can you give me the location of this place","can you show me the position of this place","can you show me where this historical place","can you give me the location of this building","can you tell me the location of this building","can you show me the position of this building","can you give me the place of this building","the location of this museum","the place of this museum","the location of this historical place","where is this place"],
+       "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13586.827357463068!2d-8.0028712!3d31.6418762!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4a81afa74e1a8dc6!2zw4ljb211c8OpZSBiZXJiw6hyZSBkZSBsYSB2YWxsw6llIGRlIGwnT3VyaWth!5e0!3m2!1sfr!2sma!4v1625152742462!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+       "name" : "Berber"
+      },
+     {"tag": "horraire",
+        "patterns": [" What are the opening hours of this Museum?","the museum Will be open all day?","what time this museum open","what time this museum close","when i can visit this museum","what the best time for visiting this museum","the work schedule of museum"],
+       "responses": ["Open every day: from 9h30 to 19h00 except week-end."],
+      "name" : "Berber"
+      },
+
+     {"tag": "activite",
+        "patterns": ["what i can see during my visit to this place","what i can see during my visit in this museum","what i can see during my visit in this museum","What will I see during my visit?","What can I find in the permanent room?","What activities are offered to visitors"],
+       "responses": ["Berber Museum is a museum located in Marrakech, entirely dedicated to the Berber tradition."],
+      "name" : "Berber"
+      },
+
+    {"tag": "price",
+        "patterns": ["What are the admission fees to the Museum?","How much does it cost to enter the museum?","How much does admission to the museum cost?","how much cost the visit in this museum ?","what the price for a visite in this museum ?"],
+       "responses": ["Adultes : 70 dh (7,90 US$)."],
+      "name" : "Berber"
+      },
+
+
+
+
+     {"tag": "Ourika",
+        "patterns": ["Ourika Valley","Ourika Valley","Ourika Valley","Ourika Valley","Ourika Valley","Ourika Valley","Ourika Valley"],
+       "responses": ["what informations you need about Ourika Valley"],
+      "name" : "Ourika"
+      },
+
+    {"tag": "activite",
+        "patterns": ["what i can see during my visit to this place","what i can see during my visit in this place","what i can see during my visit in this place","What will I see during my visit?","What activities are offered to visitors"],
+       "responses": [["The main attractions in the area are the following:","Setti-Fatma: Setti-Fatma is a small village from where visitors normally depart to see the Ourika Valley waterfalls. You won’t have any problem finding an English-speaking guide when you get to the hamlet.","Ourika Valley Waterfalls: If you like the countryside and hiking this will be your favourite part of the trip. Getting to the first waterfall is relatively easy, but to get to the other six you’ll need proper shoes and be able to scale. If the day is warm enough you can go for a swim in the Ourika river, although be warned that it is extremely cold."]],
+      "name" : "Ourika"
+      },
+
+    {"tag": "location",
+        "patterns": ["What about the location of this place","can you send me address for this place","where can i found this place","where can i found this valley "],
+       "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d872418.898653943!2d-8.090278167968755!3d31.33451238947008!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdbaaab6b05d0815%3A0x556f012f4bca4dc1!2sOued%20Ourika!5e0!3m2!1sfr!2sfr!4v1625227284990!5m2!1sfr!2sfr\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+      "name" : "Ourika"
+      },
+
+    {"tag": "transport",
+        "patterns": ["how i can go to this place","How to go to the Ourika valley ?","How to go to this place?","How to go to this valley","what type of transportation can I use to reach this destination","what is the means of transportation to reach this destination"],
+       "responses": [["By car :It is possible to rent a private car with driver.","By cab :Private cabs make the trip but be careful to negotiate the fare before boarding the vehicle.","By public transport : You can also take public transport to Tnine/Ourika, then finish by cab to Setti Fatma."]],
+      "name" : "Ourika"
+      },
+
+    {"tag": "places_images",
+        "patterns": ["can you send me a images for this place","can i see pictures of this place","what about images for this places","can i see first images for this valley"],
+       "responses": ["Ourika"],
+      "name" : "Ourika"
+      },
+     {"tag": "distance",
+        "patterns": ["How far is it from Marrakech to Ourika?","distance between Marrakech and Ourika","what is the distance between Marrakech and ourika","what is the distance between Marrakech and this place"],
+       "responses": ["The distance between Marrakech and Ourika is 172 km. The distance by road is 257.1 km"],
+      "name" : "Ourika"
+      },
+
+     {"tag": "Oukaimeden",
+        "patterns": ["Oukaimeden","Oukaimeden","Oukaimeden","Oukaimeden","Oukaimeden","Oukaimeden","Oukaimeden"],
+       "responses": ["what informations you need about Oukaimeden"],
+      "name" : "Oukaimeden"
+      },
+
+    {"tag": "activite",
+        "patterns": ["what i can see during my visit to this place","what i can see during my visit in this place","what i can see during my visit in this place","What will I see during my visit?","What activities are offered to visitors"],
+       "responses": ["Oukaïmden is a rural Moroccan commune in the province of Al Haouz, in the Marrakech-Safi region. It has the most important of the few winter sports resorts in the country and the highest in Africa"],
+      "name" : "Oukaimeden"
+      },
+
+    {"tag": "location",
+        "patterns": ["What about the location of this place","can you send me address for this place","where can i found this place"],
+       "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d217916.44319291174!2d-8.007391837787466!3d31.41565723684502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech!3m2!1d31.6294723!2d-7.9810845!4m5!1s0xdb006015e9f8e55%3A0x61502d6294349d98!2sOuka%C3%AFmeden!3m2!1d31.202674199999997!2d-7.8585562!5e0!3m2!1sfr!2sma!4v1625324896353!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+      "name" : "Oukaimeden"
+      },
+    {"tag": "transport",
+        "patterns": ["how i can go to this place","How to go to Oukaimeden ?","How to go to this place?","How to go to this valley","what type of transportation can I use to reach this destination","what is the means of transportation to reach this destination"],
+       "responses": [["There are 2 ways to go from Marrakech to Oukaimeden by cab or by car"]],
+      "name" : "Oukaimeden"
+      },
+
+    {"tag": "places_images",
+        "patterns": ["can you send me a images for this place","can i see pictures of this place","what about images for this places","can i see first images for this valley"],
+       "responses": ["Oukaimeden"],
+      "name" : "Oukaimeden"
+      },
+    {"tag": "distance",
+        "patterns": ["How far is it from Marrakech to Oukaimeden?","distance between Marrakech and Oukaimeden","what is the distance between Marrakech and Oukaimeden","what is the distance between Marrakech and this place"],
+       "responses": ["The distance between Marrakech and Oukaimeden is 78,4 km."],
+      "name" : "Oukaimeden"
+      },
+
+
+     {"tag": "Takerkoust",
+        "patterns": ["Takerkoust Lake","Takerkoust Lake","Takerkoust Lake","Takerkoust Lake","Takerkoust Lake","Takerkoust Lake"],
+       "responses": ["what informations you need about Takerkoust Lake"],
+      "name" : "Takerkoust"
+      },
+
+     {"tag": "activite",
+        "patterns": ["what i can see during my visit to this place","what i can see during my visit in this place","what i can see during my visit in this place","What will I see during my visit?","What activities are offered to visitors"],
+       "responses": ["A magnificent lake to explore 30 minutes away from Marrakech, with the beautiful Atlas mountains as a backdrop. If you want to impress or be impressed, it’s the place to go."],
+      "name" : "Takerkoust"
+      },
+
+    {"tag": "location",
+        "patterns": ["What about the location of this place","can you send me address for this place","where can i found this place"],
+       "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d217735.77399702472!2d-8.192289205547583!3d31.49334486634553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech!3m2!1d31.6294723!2d-7.9810845!4m5!1s0xdb0207ed52ba5a1%3A0x7ed35f09033b5ae!2sLalla%20Takerkoust!3m2!1d31.35737!2d-8.1352213!5e0!3m2!1sfr!2sma!4v1625326100043!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+      "name" : "Takerkoust"
+      },
+    {"tag": "transport",
+        "patterns": ["how i can go to this place","How to go to the akerkoust Lake ?","How to go to this place?","How to go to this Lake","what type of transportation can I use to reach this destination","what is the means of transportation to reach this destination"],
+       "responses": [["There are 2 ways to go from Marrakech to Takerkoust by train or by car"]],
+      "name" : "Takerkoust"
+      },
+
+    {"tag": "places_images",
+        "patterns": ["can you send me a images for this place","can i see pictures of this place","what about images for this places","can i see first images for this valley"],
+       "responses": ["Takerkoust"],
+      "name" : "Takerkoust"
+      },
+    {"tag": "distance",
+        "patterns": ["How far is it from Marrakech to Oukaimeden?","distance between Marrakech and Oukaimeden","what is the distance between Marrakech and Oukaimeden","what is the distance between Marrakech and this place"],
+       "responses": ["The distance between Marrakech and Oukaimeden is 273,7 km."],
+      "name" : "Takerkoust"
+      },
+
+
+
+    {"tag": "Jemaa",
+       "patterns": ["Jemaa el-Fna","Jemaa el-Fna","Jemaa el-Fna","Jemaa el-Fna","Jemaa el-Fna","Jemaa el-Fna","Jemaa el-Fna","Jemaa el-Fna"],
+       "responses": ["what informations you need about Jemaa El-fnaa"],
+      "name" : "Jemaa"
+      },
+
+    {"tag": "activite",
+        "patterns": ["what i can see during my visit to this place","what i can see during my visit in this place","what i can see during my visit in this place","What will I see during my visit?","What activities are offered to visitors"],
+       "responses": ["1- Drink juice: You will find several juice vendors in Jemma el-Fnaa square. Freshly squeezed orange juice is the staple, but grapefruit juice can also be served for twice the price. For a smile you will get a free half-green.\n\n2- Consult traditional herbalists/pharmacists: Call them what you will, but if you are sick, a consultation with a herbalist will give you a better understanding of medicinal plants and allow you to choose the one that is best for you. No appointment necessary.\n\n3- Take pictures with snakes: you will find snake charmers with their cobras and pythons at different places in the square. The charmers are said to have inherited a gift to be able to approach these reptiles, they are protected by Baraka, a type of divine blessing. On the Jemaâ el Fna square, they offer the spectator a bewitching show.\n\n4 - You can have dinner: at 6pm, a large part of the square starts to transform into a large open-air food court with picnic tables. Vendors vying for your attention from numbered booths. Choose from many offerings, from kebabs and salads, to mutton heads and snails.\n\n5- Entertainment: In the evening, the square turns into a theater, you'll find hundreds of Moroccans listening to storytellers, telling \"halka\" tales, playing games (involving challenges of strength or hand-eye coordination), listening to musicians, or watching transvestite dancers. Come with some change in your pocket, because this is how these people make their living."],
+      "name" : "Jemaa"
+      },
+
+    {"tag": "location",
+        "patterns": ["What about the location of this place","can you send me address for this place","where can i found this place"],
+       "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13589.15950237965!2d-7.988927!3d31.6259127!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x884109f021bf2b2d!2sPlace%20Jemaa%20el-Fna!5e0!3m2!1sfr!2sma!4v1625331965415!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+      "name" : "Jemaa"
+      },
+
+    {"tag": "places_images",
+        "patterns": ["can you send me a images for this place","can i see pictures of this place","what about images for this places","can i see first images for this valley"],
+       "responses": ["Jemaa"],
+      "name" : "Jemaa"
+      },
+
+     {"tag": "price",
+        "patterns": ["how much does it cost the enter to this place ?","What are the admission fees to the this place?","How much does it cost to enter the this place?","How much does admission to this place cost?","how much cost the visit in this place ?","what the price for a visite in this place ?"],
+       "responses": ["free access."],
+      "name" : "Jemaa"
+      },
+     {"tag": "Bahia",
+       "patterns": ["Bahia Palace","Bahia Palace","Bahia Palace","Bahia Palace","Bahia Palace","Bahia Palace","Bahia Palace"],
+       "responses": ["what informations you need about Bahia Palace"],
+      "name" : "Bahia"
+      },
+
+     {"tag": "location",
+        "patterns": ["where can i found this place ?","What about the location of this place ?","can you send me address for this place"],
+       "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13589.764386040362!2d-7.9815238!3d31.6217711!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x82985f4745817fdb!2sPalais%20de%20la%20Bahia!5e0!3m2!1sfr!2sma!4v1625333983922!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+      "name" : "Bahia"
+      },
+     {"tag": "horraire",
+        "patterns": [" What are the opening hours of this place?","the place Will be open all day?","what time this place open","what time this place close","when i can visit this place","what the best time for visiting this place","the work schedule of this place"],
+       "responses": ["The Bahia Palace is open daily from 9:00-16:45"],
+      "name" : "Bahia"
+      },
+
+     {"tag": "activite",
+        "patterns": ["what i can see during my visit to this place","what i can see during my visit in this place","what i can see during my visit in this place","What will I see during my visit?","What activities are offered to visitors"],
+       "responses": ["The Bahia Palace is an eight-hectare Moorish/Islamic-style former palace of the XIXᵉ century in Marrakech, Morocco."],
+      "name" : "Bahia"
+      },
+    {"tag": "price",
+        "patterns": ["how much does it cost the enter to this place ?","how much does it cost the enter to the this place ?","What are the admission fees to the place?","How much does it cost to enter the museum?","How much does admission to the museum cost?","how much cost the visit in this museum ?","what the price for a visite in this museum ?"],
+       "responses": ["General admission: 70 dh (7.80 US$)."],
+      "name" : "Bahia"
+      },
+    {"tag": "Koutoubia",
+       "patterns": ["Koutoubia Mosque","Koutoubia Mosque","Koutoubia Mosque","Koutoubia Mosque","Koutoubia Mosque","Koutoubia Mosque","Koutoubia Mosque"],
+       "responses": ["what informations you need about Koutoubia Mosque"],
+      "name" : "Koutoubia"
+      },
+
+     {"tag": "location",
+        "patterns": ["where can i found this museum ?","What about the location of this museum ?","can you send me address for this  museum"],
+       "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13589.453350691148!2d-7.993831!3d31.6239008!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd8cd38139a6e6fc2!2sKoutoubia%20Marrakech!5e0!3m2!1sfr!2sma!4v1625334735988!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+      "name" : "Koutoubia"
+      },
+
+
+     {"tag": "activite",
+        "patterns": ["what i can see during my visit to this place","what i can see during my visit in this place","what i can see during my visit in this place","What will I see during my visit?","What activities are offered to visitors"],
+       "responses": ["The Koutoubia Mosque is the most important in Marrakech and was one of the largest in the Islamic world when it was completed in 1158."],
+      "name" : "Koutoubia"
+      },
+    {"tag": "price",
+        "patterns": ["how much does it cost the enter to this place ?","What are the admission fees to this place?","How much does it cost to enter this place?","How much does admission to this place?","how much cost the visit in this place ?","what the price for a visite in this place ?"],
+       "responses": ["General admission: 70 dh (7.80 US$)."],
+      "name" : "Koutoubia"
+      },
+    {"tag": "places_images",
+        "patterns": ["can you send me a images for this place","can i see pictures of this place","what about images for this places","can i see first images for this valley"],
+       "responses": ["Koutoubia"],
+      "name" : "Koutoubia"
+      },
+    {"tag": "Menara",
+       "patterns": ["Menara Gardens","Menara Gardens","Menara Gardens","Menara Gardens","Menara Gardens","Menara Gardens","Menara Gardens","Menara Gardens"],
+       "responses": ["what informations you need about Menara Gardens"],
+      "name" : "Menara"
+      },
+
+     {"tag": "location",
+        "patterns": ["where can i found this place ?","What about the location of this place ?","can you send me address for this  place"],
+       "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13590.808656791109!2d-8.0226165!3d31.6146199!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5d8e3627f4ecc87e!2sLes%20Jardins%20de%20la%20M%C3%A9nara!5e0!3m2!1sfr!2sma!4v1625335205857!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+      "name" : "Menara"
+      },
+
+
+     {"tag": "activite",
+        "patterns": ["what i can see during my visit to this place","what i can see during my visit to this place","what i can see during my visit to this place","what i can see during my visit in this place","What will I see during my visit?","What can I find in the permanent room?","What activities are offered to visitors"],
+       "responses": ["The Menara is a vast garden planted with olive trees laid out under the Almoahad dynasty, about 45 minutes walk from Jemaa el-Fna square, in the center of Marrakech, Morocco. In the heart of this garden, a large basin at the foot of a pavilion serves as a water reservoir to irrigate the crops"],
+      "name" : "Menara"
+      },
+    {"tag": "price",
+        "patterns": ["how much does it cost the enter to this place ?","What are the admission fees to the this place?","How much does it cost to enter the this place?","How much does admission to this place cost?","how much cost the visit in this place ?","what the price for a visite in this place ?"],
+       "responses": ["free access."],
+      "name" : "Menara"
+      },
+    {"tag": "places_images",
+        "patterns": ["can you send me a images for this place","can i see pictures of this place","what about images for this places","can i see first images for this valley"],
+       "responses": ["Menara"],
+      "name" : "Menara"
+      },
+
+     {"tag": "Medina",
+       "patterns": ["Marrakech Medina","Marrakech Medina","Marrakech Medina","Marrakech Medina","Marrakech Medina","Marrakech Medina"],
+       "responses": ["what informations you need about Marrakech Medina"],
+      "name" : "Medina"
+      },
+
+    {"tag": "activite",
+        "patterns": ["what i can see during my visit to this place","what i can see during my visit in this place","what i can see during my visit in this place","What will I see during my visit?","What activities are offered to visitors"],
+       "responses": ["The souks of Marrakech are souks of the medina of Marrakech, one of the main places of trade and tourism in Morocco"],
+      "name" : "Medina"
+      },
+    {"tag": "location",
+        "patterns": ["What about the location of this place","can you send me address for this place","where can i found this place"],
+       "responses": ["<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27176.834451915296!2d-8.004065907085788!3d31.630994355304583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee4403481913%3A0x8a258af8dd23db99!2sM%C3%A9dina%2C%20Marrakech%2040000!5e0!3m2!1sfr!2sma!4v1625337341536!5m2!1sfr!2sma\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"],
+      "name" : "Medina"
+      },
+
+    {"tag": "places_images",
+        "patterns": ["can you send me a images for this place","can i see pictures of this place","what about images for this places","can i see first images for this valley"],
+       "responses": ["Medina"],
+      "name" : "Medina"
+      }
+  ]
+}
+
